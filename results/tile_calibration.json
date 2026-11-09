@@ -1,0 +1,74 @@
+[
+  {
+    "case": "private",
+    "query_tile": 16,
+    "key_tile": 32,
+    "segment_us": 846.2120056152344
+  },
+  {
+    "case": "private",
+    "query_tile": 16,
+    "key_tile": 64,
+    "segment_us": 446.2520122528076
+  },
+  {
+    "case": "private",
+    "query_tile": 16,
+    "key_tile": 128,
+    "segment_us": 252.45599746704102
+  },
+  {
+    "case": "private",
+    "query_tile": 32,
+    "key_tile": 64,
+    "segment_us": 431.33602142333984
+  },
+  {
+    "case": "private",
+    "query_tile": 32,
+    "key_tile": 128,
+    "segment_us": 278.7519931793213
+  },
+  {
+    "case": "private",
+    "query_tile": 64,
+    "key_tile": 64,
+    "segment_us": 480.7720184326172
+  },
+  {
+    "case": "shared",
+    "query_tile": 16,
+    "key_tile": 32,
+    "segment_us": 621.6959953308105
+  },
+  {
+    "case": "shared",
+    "query_tile": 16,
+    "key_tile": 64,
+    "segment_us": 370.0400114059448
+  },
+  {
+    "case": "shared",
+    "query_tile": 16,
+    "key_tile": 128,
+    "segment_us": 297.544002532959
+  },
+  {
+    "case": "shared",
+    "query_tile": 32,
+    "key_tile": 64,
+    "segment_us": 183.10799598693848
+  },
+  {
+    "case": "shared",
+    "query_tile": 32,
+    "key_tile": 128,
+    "segment_us": 155.731999874115
+  },
+  {
+    "case": "shared",
+    "query_tile": 64,
+    "key_tile": 64,
+    "segment_us": 109.75199937820435
+  }
+]

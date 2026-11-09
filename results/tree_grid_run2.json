@@ -1,0 +1,7454 @@
+[
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 248,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 122.26542457938194,
+    "plan_us": 184.72783267498016,
+    "metadata_us": 509.54706966876984,
+    "refresh_us": 816.5403269231319,
+    "jobs": 7,
+    "logical_jobs": 4,
+    "estimated_us": 10.413235555555556,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 248,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 124.75624680519104,
+    "plan_us": 94.42400187253952,
+    "metadata_us": 293.5631200671196,
+    "refresh_us": 512.7433687448502,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 10.138108302222221,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 248,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 116.58128350973129,
+    "plan_us": 253.46502661705017,
+    "metadata_us": 214.91944789886475,
+    "refresh_us": 584.9657580256462,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 8.861084444444444,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 248,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 114.5925372838974,
+    "plan_us": 434.12577360868454,
+    "metadata_us": 210.96039563417435,
+    "refresh_us": 759.6787065267563,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 8.861084444444444,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1424,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 120.61605229973793,
+    "plan_us": 193.81847232580185,
+    "metadata_us": 363.3880987763405,
+    "refresh_us": 677.8226234018803,
+    "jobs": 8,
+    "logical_jobs": 5,
+    "estimated_us": 17.013688888888886,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1424,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 122.9066401720047,
+    "plan_us": 76.41222327947617,
+    "metadata_us": 233.17988961935043,
+    "refresh_us": 432.4987530708313,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 16.738561635555556,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1424,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 119.47797611355782,
+    "plan_us": 302.9443323612213,
+    "metadata_us": 218.10829639434814,
+    "refresh_us": 640.5306048691273,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 15.461537777777776,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1424,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 122.09517881274223,
+    "plan_us": 467.3348739743233,
+    "metadata_us": 212.68706768751144,
+    "refresh_us": 802.117120474577,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 15.461537777777776,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5456,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 239.39590901136398,
+    "plan_us": 269.37201619148254,
+    "metadata_us": 499.36771392822266,
+    "refresh_us": 1008.1356391310692,
+    "jobs": 16,
+    "logical_jobs": 13,
+    "estimated_us": 45.35054222222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5456,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 261.2127922475338,
+    "plan_us": 127.70947068929672,
+    "metadata_us": 260.89418679475784,
+    "refresh_us": 649.8164497315884,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 43.82706830222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5456,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 251.9260160624981,
+    "plan_us": 451.6448825597763,
+    "metadata_us": 244.57648396492004,
+    "refresh_us": 948.1473825871944,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 42.55004444444443,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5456,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 252.7548000216484,
+    "plan_us": 695.6346333026886,
+    "metadata_us": 240.08657783269882,
+    "refresh_us": 1188.4760111570358,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 42.55004444444443,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 500,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 119.00905519723892,
+    "plan_us": 111.10212653875351,
+    "metadata_us": 290.17217457294464,
+    "refresh_us": 520.2833563089371,
+    "jobs": 7,
+    "logical_jobs": 4,
+    "estimated_us": 12.324702222222223,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 500,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 117.11474508047104,
+    "plan_us": 64.08616900444031,
+    "metadata_us": 201.70770585536957,
+    "refresh_us": 382.9086199402809,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 11.255715555555554,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 500,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 115.56027457118034,
+    "plan_us": 242.95970797538757,
+    "metadata_us": 206.43789321184158,
+    "refresh_us": 564.9578757584095,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 10.007368888888887,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 500,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 113.91909793019295,
+    "plan_us": 359.39179360866547,
+    "metadata_us": 207.18947052955627,
+    "refresh_us": 680.5003620684147,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 10.007368888888887,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1676,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 122.91697785258293,
+    "plan_us": 185.50176173448563,
+    "metadata_us": 325.2169117331505,
+    "refresh_us": 633.635651320219,
+    "jobs": 8,
+    "logical_jobs": 5,
+    "estimated_us": 18.925155555555556,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1676,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 122.59874492883682,
+    "plan_us": 71.58983498811722,
+    "metadata_us": 206.12217485904694,
+    "refresh_us": 400.310754776001,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 17.856168888888888,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1676,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 123.54766950011253,
+    "plan_us": 318.25993210077286,
+    "metadata_us": 207.87306129932404,
+    "refresh_us": 649.6806629002094,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 16.60782222222222,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1676,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 120.3678548336029,
+    "plan_us": 501.64107233285904,
+    "metadata_us": 212.70569413900375,
+    "refresh_us": 834.7146213054657,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 16.60782222222222,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5708,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 228.31354290246964,
+    "plan_us": 269.0255641937256,
+    "metadata_us": 491.53435975313187,
+    "refresh_us": 988.8734668493271,
+    "jobs": 16,
+    "logical_jobs": 13,
+    "estimated_us": 47.26200888888888,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5708,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 222.32122719287872,
+    "plan_us": 123.85658919811249,
+    "metadata_us": 254.65898215770721,
+    "refresh_us": 600.8367985486984,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 44.94467555555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5708,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 211.60468459129333,
+    "plan_us": 492.58675426244736,
+    "metadata_us": 267.8465098142624,
+    "refresh_us": 972.0379486680031,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 43.69632888888888,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5708,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 210.7730135321617,
+    "plan_us": 689.9666041135788,
+    "metadata_us": 236.99365556240082,
+    "refresh_us": 1137.7332732081413,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 43.69632888888888,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1364,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 137.42754235863686,
+    "plan_us": 182.66774713993073,
+    "metadata_us": 368.703156709671,
+    "refresh_us": 688.7984462082386,
+    "jobs": 8,
+    "logical_jobs": 5,
+    "estimated_us": 20.126648888888887,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1364,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 120.42056769132614,
+    "plan_us": 89.86424654722214,
+    "metadata_us": 209.5196396112442,
+    "refresh_us": 419.8044538497925,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 16.43622222222222,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1364,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 120.30629441142082,
+    "plan_us": 357.6604649424553,
+    "metadata_us": 212.38531917333603,
+    "refresh_us": 690.3520785272121,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 15.187875555555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1364,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 126.18442997336388,
+    "plan_us": 726.0162383317947,
+    "metadata_us": 215.22771567106247,
+    "refresh_us": 1067.428383976221,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 15.187875555555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2540,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 161.82437539100647,
+    "plan_us": 230.48929870128632,
+    "metadata_us": 414.11537677049637,
+    "refresh_us": 806.4290508627892,
+    "jobs": 11,
+    "logical_jobs": 8,
+    "estimated_us": 29.22379555555555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2540,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 150.15210956335068,
+    "plan_us": 88.90125900506973,
+    "metadata_us": 245.4817295074463,
+    "refresh_us": 484.5350980758667,
+    "jobs": 9,
+    "logical_jobs": 9,
+    "estimated_us": 23.036675555555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2540,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 150.2281054854393,
+    "plan_us": 418.4367135167122,
+    "metadata_us": 213.8754352927208,
+    "refresh_us": 782.5402542948723,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 21.788328888888884,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2540,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 150.55593103170395,
+    "plan_us": 619.5884197950363,
+    "metadata_us": 214.8933708667755,
+    "refresh_us": 985.0377216935158,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 21.788328888888884,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6572,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 256.7123621702194,
+    "plan_us": 316.4755180478096,
+    "metadata_us": 522.4021151661873,
+    "refresh_us": 1095.5899953842163,
+    "jobs": 20,
+    "logical_jobs": 17,
+    "estimated_us": 58.80899555555555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6572,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 293.61359775066376,
+    "plan_us": 139.2727717757225,
+    "metadata_us": 270.3070640563965,
+    "refresh_us": 703.1934335827827,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 50.12518222222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6572,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 289.21738266944885,
+    "plan_us": 540.541484951973,
+    "metadata_us": 248.91458451747894,
+    "refresh_us": 1078.6734521389008,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 50.12518222222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6572,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 292.07924380898476,
+    "plan_us": 781.9961756467819,
+    "metadata_us": 248.9592880010605,
+    "refresh_us": 1323.0347074568272,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 50.12518222222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 408,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 116.71241372823715,
+    "plan_us": 125.62796473503113,
+    "metadata_us": 297.2893416881561,
+    "refresh_us": 539.6297201514244,
+    "jobs": 7,
+    "logical_jobs": 4,
+    "estimated_us": 13.325946666666665,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 408,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 117.03185737133026,
+    "plan_us": 64.16067481040955,
+    "metadata_us": 197.49999046325684,
+    "refresh_us": 378.69252264499664,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 10.86628608,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 408,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 120.0617291033268,
+    "plan_us": 227.68322378396988,
+    "metadata_us": 201.54286175966263,
+    "refresh_us": 549.2878146469593,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 9.617939413333334,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 408,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 116.671621799469,
+    "plan_us": 356.7896783351898,
+    "metadata_us": 197.7263018488884,
+    "refresh_us": 671.1876019835472,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 9.617939413333334,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1584,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 134.9233090877533,
+    "plan_us": 182.14527517557144,
+    "metadata_us": 316.3963556289673,
+    "refresh_us": 633.464939892292,
+    "jobs": 9,
+    "logical_jobs": 6,
+    "estimated_us": 21.174746666666664,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1584,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 119.44910511374474,
+    "plan_us": 73.23455065488815,
+    "metadata_us": 210.8123153448105,
+    "refresh_us": 403.4959711134434,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 17.466739413333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1584,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 119.91141363978386,
+    "plan_us": 313.92183154821396,
+    "metadata_us": 208.82301032543182,
+    "refresh_us": 642.6562555134296,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 16.218392746666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1584,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 117.98031628131866,
+    "plan_us": 487.39463090896606,
+    "metadata_us": 201.39943808317184,
+    "refresh_us": 806.7743852734566,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 16.218392746666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5616,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 254.00472804903984,
+    "plan_us": 277.46986597776413,
+    "metadata_us": 465.0363698601723,
+    "refresh_us": 996.5109638869762,
+    "jobs": 16,
+    "logical_jobs": 13,
+    "estimated_us": 48.263253333333324,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5616,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 260.75663045048714,
+    "plan_us": 119.32756751775742,
+    "metadata_us": 251.45802646875381,
+    "refresh_us": 631.5422244369984,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 44.55524607999998,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5616,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 252.0376816391945,
+    "plan_us": 471.3423550128937,
+    "metadata_us": 244.4228157401085,
+    "refresh_us": 967.8028523921967,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 43.30689941333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5616,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 252.2115595638752,
+    "plan_us": 704.6535611152649,
+    "metadata_us": 237.04953491687775,
+    "refresh_us": 1193.9146555960178,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 43.30689941333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 660,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 132.64575973153114,
+    "plan_us": 145.03300189971924,
+    "metadata_us": 326.1798992753029,
+    "refresh_us": 603.8586609065533,
+    "jobs": 7,
+    "logical_jobs": 4,
+    "estimated_us": 15.237413333333333,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 660,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 124.25296008586884,
+    "plan_us": 67.9604709148407,
+    "metadata_us": 245.5906942486763,
+    "refresh_us": 437.80412524938583,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 11.983893333333333,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 660,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 115.14546349644661,
+    "plan_us": 265.72495698928833,
+    "metadata_us": 197.6005733013153,
+    "refresh_us": 578.4709937870502,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 10.735546666666666,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 660,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 118.04038658738136,
+    "plan_us": 427.3485392332077,
+    "metadata_us": 201.11910998821259,
+    "refresh_us": 746.5080358088017,
+    "jobs": 6,
+    "logical_jobs": 6,
+    "estimated_us": 10.735546666666666,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1836,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 143.9906656742096,
+    "plan_us": 204.00527864694595,
+    "metadata_us": 375.5064681172371,
+    "refresh_us": 723.5024124383926,
+    "jobs": 10,
+    "logical_jobs": 7,
+    "estimated_us": 24.33456,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1836,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 119.94633823633194,
+    "plan_us": 78.01968604326248,
+    "metadata_us": 219.9523150920868,
+    "refresh_us": 417.9183393716812,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 18.584346666666665,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1836,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 131.5142959356308,
+    "plan_us": 1494.2949637770653,
+    "metadata_us": 234.76127535104752,
+    "refresh_us": 1860.5705350637436,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 17.336,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 1836,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 130.66940009593964,
+    "plan_us": 528.4547805786133,
+    "metadata_us": 210.86260676383972,
+    "refresh_us": 869.9867874383926,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 17.336,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5868,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 264.63624089956284,
+    "plan_us": 277.3897722363472,
+    "metadata_us": 501.1586472392082,
+    "refresh_us": 1043.1846603751183,
+    "jobs": 19,
+    "logical_jobs": 16,
+    "estimated_us": 53.91976,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5868,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 264.8930996656418,
+    "plan_us": 122.816301882267,
+    "metadata_us": 260.24971157312393,
+    "refresh_us": 647.9591131210327,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 45.67285333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5868,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 264.4049935042858,
+    "plan_us": 500.22080540657043,
+    "metadata_us": 241.44351482391357,
+    "refresh_us": 1006.0693137347698,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 44.42450666666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 5868,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 265.9034915268421,
+    "plan_us": 716.3416594266891,
+    "metadata_us": 235.48025637865067,
+    "refresh_us": 1217.725407332182,
+    "jobs": 14,
+    "logical_jobs": 14,
+    "estimated_us": 44.42450666666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1524,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 160.49882397055626,
+    "plan_us": 155.86614608764648,
+    "metadata_us": 339.85450863838196,
+    "refresh_us": 656.2194786965847,
+    "jobs": 11,
+    "logical_jobs": 8,
+    "estimated_us": 26.7844,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1524,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 119.44621801376343,
+    "plan_us": 72.45689630508423,
+    "metadata_us": 210.34851670265198,
+    "refresh_us": 402.25163102149963,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 17.1644,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1524,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 119.45366859436035,
+    "plan_us": 369.8086366057396,
+    "metadata_us": 205.17781376838684,
+    "refresh_us": 694.4401189684868,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 15.916053333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1524,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 123.90809133648872,
+    "plan_us": 533.2138389348984,
+    "metadata_us": 206.18177950382233,
+    "refresh_us": 863.3037097752094,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 15.916053333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2700,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 167.1447418630123,
+    "plan_us": 235.14125496149063,
+    "metadata_us": 394.2986950278282,
+    "refresh_us": 796.5846918523312,
+    "jobs": 13,
+    "logical_jobs": 10,
+    "estimated_us": 34.633199999999995,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2700,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 133.15202668309212,
+    "plan_us": 82.3168084025383,
+    "metadata_us": 228.7309616804123,
+    "refresh_us": 444.1997967660427,
+    "jobs": 9,
+    "logical_jobs": 9,
+    "estimated_us": 23.76485333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2700,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 134.71124693751335,
+    "plan_us": 417.4578934907913,
+    "metadata_us": 211.97926253080368,
+    "refresh_us": 764.1484029591084,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 22.516506666666665,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2700,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 134.66989621520042,
+    "plan_us": 638.2390856742859,
+    "metadata_us": 213.42933177947998,
+    "refresh_us": 986.3383136689663,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 22.516506666666665,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6732,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 278.7461504340172,
+    "plan_us": 296.8618646264076,
+    "metadata_us": 519.254244863987,
+    "refresh_us": 1094.8622599244118,
+    "jobs": 21,
+    "logical_jobs": 18,
+    "estimated_us": 62.970053333333325,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6732,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 260.64952835440636,
+    "plan_us": 127.8948038816452,
+    "metadata_us": 265.55079966783524,
+    "refresh_us": 654.0951319038868,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 50.85335999999999,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6732,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 261.77940890192986,
+    "plan_us": 555.0859495997429,
+    "metadata_us": 249.10364300012589,
+    "refresh_us": 1065.9690015017986,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 50.85335999999999,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6732,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 261.0781230032444,
+    "plan_us": 823.4623819589615,
+    "metadata_us": 558.0028519034386,
+    "refresh_us": 1642.5433568656445,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 50.85335999999999,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 984,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 152.98891812562943,
+    "plan_us": 181.10498785972595,
+    "metadata_us": 393.010675907135,
+    "refresh_us": 727.1045818924904,
+    "jobs": 11,
+    "logical_jobs": 8,
+    "estimated_us": 28.805093333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 984,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 119.70615014433861,
+    "plan_us": 76.47741585969925,
+    "metadata_us": 223.75676780939102,
+    "refresh_us": 419.9403338134289,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 14.881112746666668,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 984,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 126.82424858212471,
+    "plan_us": 286.76725924015045,
+    "metadata_us": 214.06076848506927,
+    "refresh_us": 627.6522763073444,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 13.632766080000001,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 984,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 119.6475699543953,
+    "plan_us": 480.15452921390533,
+    "metadata_us": 211.28728985786438,
+    "refresh_us": 811.089389026165,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 13.632766080000001,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2160,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 184.84555184841156,
+    "plan_us": 238.08050900697708,
+    "metadata_us": 409.13838893175125,
+    "refresh_us": 832.0644497871399,
+    "jobs": 13,
+    "logical_jobs": 10,
+    "estimated_us": 36.65389333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2160,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 135.40033251047134,
+    "plan_us": 84.99901741743088,
+    "metadata_us": 227.27716714143753,
+    "refresh_us": 447.67651706933975,
+    "jobs": 9,
+    "logical_jobs": 9,
+    "estimated_us": 21.48156608,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2160,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 130.66520914435387,
+    "plan_us": 362.33384162187576,
+    "metadata_us": 217.02609956264496,
+    "refresh_us": 710.0251503288746,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 20.23321941333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2160,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 131.29748404026031,
+    "plan_us": 608.2188338041306,
+    "metadata_us": 221.57561033964157,
+    "refresh_us": 961.0919281840324,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 20.23321941333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6192,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 310.1389855146408,
+    "plan_us": 699.6942684054375,
+    "metadata_us": 519.641675055027,
+    "refresh_us": 1529.4749289751053,
+    "jobs": 23,
+    "logical_jobs": 20,
+    "estimated_us": 67.54598549333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6192,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 275.58058500289917,
+    "plan_us": 124.60816651582718,
+    "metadata_us": 268.7731757760048,
+    "refresh_us": 668.9619272947311,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 48.57007274666665,
+    "max_abs_error": 0.00048828125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6192,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 266.85306802392006,
+    "plan_us": 514.6795883774757,
+    "metadata_us": 248.97325783967972,
+    "refresh_us": 1030.5059142410755,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 47.32172607999999,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6192,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 267.04203337430954,
+    "plan_us": 821.0213854908943,
+    "metadata_us": 247.9199320077896,
+    "refresh_us": 1335.9833508729935,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 47.32172607999999,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1236,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 155.0186425447464,
+    "plan_us": 219.04241293668747,
+    "metadata_us": 469.7367548942566,
+    "refresh_us": 843.7978103756905,
+    "jobs": 11,
+    "logical_jobs": 8,
+    "estimated_us": 30.71656,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1236,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 141.26654714345932,
+    "plan_us": 79.88139986991882,
+    "metadata_us": 230.89908063411713,
+    "refresh_us": 452.04702764749527,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 15.99872,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1236,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 128.43022122979164,
+    "plan_us": 342.34393388032913,
+    "metadata_us": 223.10763597488403,
+    "refresh_us": 693.8817910850048,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 14.750373333333334,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 1236,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 126.58601626753807,
+    "plan_us": 544.0348759293556,
+    "metadata_us": 217.28407591581345,
+    "refresh_us": 887.9049681127071,
+    "jobs": 7,
+    "logical_jobs": 7,
+    "estimated_us": 14.750373333333334,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2412,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 195.38914784789085,
+    "plan_us": 235.4634925723076,
+    "metadata_us": 408.5106775164604,
+    "refresh_us": 839.3633179366589,
+    "jobs": 15,
+    "logical_jobs": 12,
+    "estimated_us": 41.062053333333324,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2412,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 132.79691338539124,
+    "plan_us": 83.75383913516998,
+    "metadata_us": 236.8548884987831,
+    "refresh_us": 453.40564101934433,
+    "jobs": 9,
+    "logical_jobs": 9,
+    "estimated_us": 22.599173333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2412,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 144.5585861802101,
+    "plan_us": 391.68912917375565,
+    "metadata_us": 213.25144916772842,
+    "refresh_us": 749.4991645216942,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 21.350826666666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 2412,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 147.904921323061,
+    "plan_us": 649.6049463748932,
+    "metadata_us": 211.04048937559128,
+    "refresh_us": 1008.5503570735455,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 21.350826666666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6444,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 308.6053766310215,
+    "plan_us": 302.2458404302597,
+    "metadata_us": 521.1234092712402,
+    "refresh_us": 1131.9746263325214,
+    "jobs": 23,
+    "logical_jobs": 20,
+    "estimated_us": 69.39890666666665,
+    "max_abs_error": 0.00048828125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6444,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 277.529563754797,
+    "plan_us": 125.90643018484116,
+    "metadata_us": 264.8262307047844,
+    "refresh_us": 668.2622246444225,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 49.687679999999986,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6444,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 272.3156474530697,
+    "plan_us": 553.6703392863274,
+    "metadata_us": 251.59679353237152,
+    "refresh_us": 1077.5827802717686,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 48.43933333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 6444,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 272.96626940369606,
+    "plan_us": 831.2622085213661,
+    "metadata_us": 243.0090680718422,
+    "refresh_us": 1347.2375459969044,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 48.43933333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 2100,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 212.4100923538208,
+    "plan_us": 204.88910377025604,
+    "metadata_us": 445.61922550201416,
+    "refresh_us": 862.918421626091,
+    "jobs": 16,
+    "logical_jobs": 13,
+    "estimated_us": 43.511893333333326,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 2100,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 134.04954224824905,
+    "plan_us": 85.72079241275787,
+    "metadata_us": 235.88351905345917,
+    "refresh_us": 455.6538537144661,
+    "jobs": 9,
+    "logical_jobs": 9,
+    "estimated_us": 21.17922666666667,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 2100,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 133.68390500545502,
+    "plan_us": 430.37068098783493,
+    "metadata_us": 212.84352988004684,
+    "refresh_us": 776.8981158733368,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 19.93088,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 4,
+    "storage_tokens": 2100,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 132.69521296024323,
+    "plan_us": 650.4058837890625,
+    "metadata_us": 206.6493034362793,
+    "refresh_us": 989.750400185585,
+    "jobs": 8,
+    "logical_jobs": 8,
+    "estimated_us": 19.93088,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 3276,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 225.75743496418,
+    "plan_us": 257.367268204689,
+    "metadata_us": 449.27000999450684,
+    "refresh_us": 932.3947131633759,
+    "jobs": 17,
+    "logical_jobs": 14,
+    "estimated_us": 50.11234666666665,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 3276,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 151.07309445738792,
+    "plan_us": 94.38302367925644,
+    "metadata_us": 252.5709569454193,
+    "refresh_us": 498.0270750820637,
+    "jobs": 10,
+    "logical_jobs": 10,
+    "estimated_us": 27.77968,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 3276,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 147.3364420235157,
+    "plan_us": 474.3635654449463,
+    "metadata_us": 221.7702567577362,
+    "refresh_us": 843.4702642261982,
+    "jobs": 9,
+    "logical_jobs": 9,
+    "estimated_us": 26.53133333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 4,
+    "storage_tokens": 3276,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 152.59357169270515,
+    "plan_us": 744.6939125657082,
+    "metadata_us": 218.52459758520126,
+    "refresh_us": 1115.8120818436146,
+    "jobs": 9,
+    "logical_jobs": 9,
+    "estimated_us": 26.53133333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 7308,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 318.22314485907555,
+    "plan_us": 646.413303911686,
+    "metadata_us": 534.5819517970085,
+    "refresh_us": 1499.21840056777,
+    "jobs": 25,
+    "logical_jobs": 22,
+    "estimated_us": 78.44919999999998,
+    "max_abs_error": 0.00048828125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 7308,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 255.7145431637764,
+    "plan_us": 127.70481407642365,
+    "metadata_us": 292.77708381414413,
+    "refresh_us": 676.1964410543442,
+    "jobs": 17,
+    "logical_jobs": 17,
+    "estimated_us": 54.86818666666665,
+    "max_abs_error": 0.00048828125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 7308,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 253.8173459470272,
+    "plan_us": 601.097010076046,
+    "metadata_us": 255.11626154184341,
+    "refresh_us": 1110.0306175649166,
+    "jobs": 17,
+    "logical_jobs": 17,
+    "estimated_us": 54.86818666666665,
+    "max_abs_error": 0.00048828125
+  },
+  {
+    "shape": {
+      "fanout": [
+        3,
+        1
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 4,
+    "storage_tokens": 7308,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 255.78998029232025,
+    "plan_us": 936.8592873215675,
+    "metadata_us": 251.66105479002,
+    "refresh_us": 1444.3103224039078,
+    "jobs": 17,
+    "logical_jobs": 17,
+    "estimated_us": 54.86818666666665,
+    "max_abs_error": 0.00048828125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 666,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 178.62403765320778,
+    "plan_us": 199.57777112722397,
+    "metadata_us": 376.9164904952049,
+    "refresh_us": 755.1182992756367,
+    "jobs": 25,
+    "logical_jobs": 12,
+    "estimated_us": 36.56077333333334,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 666,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 171.1040735244751,
+    "plan_us": 95.05171328783035,
+    "metadata_us": 255.4226666688919,
+    "refresh_us": 521.5784534811974,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 22.906815431111113,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 666,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 168.52356493473053,
+    "plan_us": 419.6884110569954,
+    "metadata_us": 248.68547916412354,
+    "refresh_us": 836.8974551558495,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 22.48203555555556,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 666,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 171.67283222079277,
+    "plan_us": 780.053436756134,
+    "metadata_us": 239.61812257766724,
+    "refresh_us": 1191.344391554594,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 22.48203555555556,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4698,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 308.42339619994164,
+    "plan_us": 439.64479118585587,
+    "metadata_us": 578.8607522845268,
+    "refresh_us": 1326.9289396703243,
+    "jobs": 29,
+    "logical_jobs": 16,
+    "estimated_us": 59.90423999999999,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4698,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 284.73492711782455,
+    "plan_us": 115.9515231847763,
+    "metadata_us": 265.4632553458214,
+    "refresh_us": 666.1497056484222,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 46.25028209777777,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4698,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 284.40654277801514,
+    "plan_us": 738.0340248346329,
+    "metadata_us": 264.3996849656105,
+    "refresh_us": 1286.8402525782585,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 45.82550222222222,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4698,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 293.60465705394745,
+    "plan_us": 1318.829134106636,
+    "metadata_us": 273.7734466791153,
+    "refresh_us": 1886.2072378396988,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 45.82550222222222,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18522,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 721.6477766633034,
+    "plan_us": 689.4897669553757,
+    "metadata_us": 898.6983448266983,
+    "refresh_us": 2309.8358884453773,
+    "jobs": 57,
+    "logical_jobs": 44,
+    "estimated_us": 157.77250666666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18522,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 736.7984391748905,
+    "plan_us": 244.01769042015076,
+    "metadata_us": 376.18447095155716,
+    "refresh_us": 1357.0006005465984,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 140.43463928888886,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18522,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 738.0145601928234,
+    "plan_us": 1276.7668813467026,
+    "metadata_us": 358.1373021006584,
+    "refresh_us": 2372.9187436401844,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 140.0098594133333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18522,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 734.217744320631,
+    "plan_us": 2103.3696830272675,
+    "metadata_us": 355.0490364432335,
+    "refresh_us": 3192.636463791132,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 140.0098594133333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 918,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 194.08827647566795,
+    "plan_us": 252.419151365757,
+    "metadata_us": 507.3621869087219,
+    "refresh_us": 953.8696147501469,
+    "jobs": 25,
+    "logical_jobs": 12,
+    "estimated_us": 42.295173333333324,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 918,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 173.35545271635056,
+    "plan_us": 94.18651461601257,
+    "metadata_us": 253.7742257118225,
+    "refresh_us": 521.3161930441856,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 23.940536604444446,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 918,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 174.96412619948387,
+    "plan_us": 491.9106140732765,
+    "metadata_us": 247.65357375144958,
+    "refresh_us": 914.52831402421,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 23.628915555555558,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 918,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 172.8617586195469,
+    "plan_us": 951.5704587101936,
+    "metadata_us": 236.1014485359192,
+    "refresh_us": 1360.5336658656597,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 23.628915555555558,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4950,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 303.1671978533268,
+    "plan_us": 503.24853509664536,
+    "metadata_us": 652.8804078698158,
+    "refresh_us": 1459.296140819788,
+    "jobs": 30,
+    "logical_jobs": 17,
+    "estimated_us": 66.88698666666664,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4950,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 271.0239961743355,
+    "plan_us": 122.9969784617424,
+    "metadata_us": 270.24466544389725,
+    "refresh_us": 664.2656400799751,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 47.284003271111104,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4950,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 268.76647025346756,
+    "plan_us": 813.0110800266266,
+    "metadata_us": 257.89160281419754,
+    "refresh_us": 1339.6691530942917,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 46.972382222222215,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4950,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 268.2868391275406,
+    "plan_us": 1465.7219871878624,
+    "metadata_us": 254.95421141386032,
+    "refresh_us": 1988.9630377292633,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 46.972382222222215,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18774,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 675.7385097444057,
+    "plan_us": 700.3322243690491,
+    "metadata_us": 891.8419480323792,
+    "refresh_us": 2267.912682145834,
+    "jobs": 57,
+    "logical_jobs": 44,
+    "estimated_us": 163.50690666666668,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18774,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 626.4893338084221,
+    "plan_us": 258.24736803770065,
+    "metadata_us": 400.67825466394424,
+    "refresh_us": 1285.414956510067,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 141.4683604622222,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18774,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 628.0949339270592,
+    "plan_us": 1301.0380789637566,
+    "metadata_us": 372.5048154592514,
+    "refresh_us": 2301.637828350067,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 141.15673941333327,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18774,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 625.7371976971626,
+    "plan_us": 2163.9419719576836,
+    "metadata_us": 354.17545586824417,
+    "refresh_us": 3143.8546255230904,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 141.15673941333327,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1782,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 335.3860229253769,
+    "plan_us": 917.837955057621,
+    "metadata_us": 977.0067408680916,
+    "refresh_us": 2230.2307188510895,
+    "jobs": 28,
+    "logical_jobs": 15,
+    "estimated_us": 65.70101333333332,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1782,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 229.24058139324188,
+    "plan_us": 111.41039431095123,
+    "metadata_us": 275.3669396042824,
+    "refresh_us": 616.0179153084755,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 29.21773660444445,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1782,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 231.9173887372017,
+    "plan_us": 1021.6021910309792,
+    "metadata_us": 250.5900338292122,
+    "refresh_us": 1504.109613597393,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 28.906115555555555,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1782,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 230.45772686600685,
+    "plan_us": 1565.6119212508202,
+    "metadata_us": 249.69317018985748,
+    "refresh_us": 2045.7628183066845,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 28.906115555555555,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5814,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 456.58256858587265,
+    "plan_us": 697.1331313252449,
+    "metadata_us": 820.0099691748619,
+    "refresh_us": 1973.7256690859795,
+    "jobs": 39,
+    "logical_jobs": 26,
+    "estimated_us": 97.78290666666665,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5814,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 368.28750744462013,
+    "plan_us": 150.8723944425583,
+    "metadata_us": 298.3575686812401,
+    "refresh_us": 817.5174705684185,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 52.56120327111111,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5814,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 363.7237474322319,
+    "plan_us": 987.1385991573334,
+    "metadata_us": 267.2635018825531,
+    "refresh_us": 1618.1258484721184,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 52.249582222222216,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5814,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 364.3796779215336,
+    "plan_us": 1880.326308310032,
+    "metadata_us": 265.67745953798294,
+    "refresh_us": 2510.3834457695484,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 52.249582222222216,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19638,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 838.9834314584732,
+    "plan_us": 801.6312494874,
+    "metadata_us": 990.7232597470284,
+    "refresh_us": 2631.3379406929016,
+    "jobs": 68,
+    "logical_jobs": 55,
+    "estimated_us": 196.89952000000002,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19638,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 820.6372149288654,
+    "plan_us": 747.2056895494461,
+    "metadata_us": 420.89447379112244,
+    "refresh_us": 1988.737378269434,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 146.7455604622222,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19638,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 826.2645453214645,
+    "plan_us": 1428.0229806900024,
+    "metadata_us": 360.218808054924,
+    "refresh_us": 2614.506334066391,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 146.4339394133333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19638,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 824.7802034020424,
+    "plan_us": 3209.92898195982,
+    "metadata_us": 364.5317628979683,
+    "refresh_us": 4399.2409482598305,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 146.4339394133333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 826,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 217.0688472688198,
+    "plan_us": 293.1728959083557,
+    "metadata_us": 536.045990884304,
+    "refresh_us": 1046.2877340614796,
+    "jobs": 25,
+    "logical_jobs": 12,
+    "estimated_us": 45.29890666666666,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 826,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 202.5514841079712,
+    "plan_us": 93.8214361667633,
+    "metadata_us": 239.6637573838234,
+    "refresh_us": 536.0366776585579,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 23.61285660444445,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 826,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 173.06171357631683,
+    "plan_us": 420.39714753627777,
+    "metadata_us": 237.17060685157776,
+    "refresh_us": 830.6294679641724,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 23.61285660444445,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 826,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 172.2189597785473,
+    "plan_us": 899.7181430459023,
+    "metadata_us": 237.36711591482162,
+    "refresh_us": 1309.3042187392712,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 23.61285660444445,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4858,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 359.4066947698593,
+    "plan_us": 690.3056055307388,
+    "metadata_us": 822.0206946134567,
+    "refresh_us": 1871.7329949140549,
+    "jobs": 33,
+    "logical_jobs": 20,
+    "estimated_us": 73.63575999999999,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4858,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 303.404126316309,
+    "plan_us": 125.12505054473877,
+    "metadata_us": 264.51703161001205,
+    "refresh_us": 693.0462084710598,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 46.9563232711111,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4858,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 297.2687594592571,
+    "plan_us": 726.7706096172333,
+    "metadata_us": 252.26455181837082,
+    "refresh_us": 1276.3039208948612,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 46.9563232711111,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 4858,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 299.4673326611519,
+    "plan_us": 1409.139484167099,
+    "metadata_us": 254.64408099651337,
+    "refresh_us": 1963.2508978247643,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 46.9563232711111,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18682,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 748.9635609090328,
+    "plan_us": 755.0176233053207,
+    "metadata_us": 926.3772517442703,
+    "refresh_us": 2430.358435958624,
+    "jobs": 57,
+    "logical_jobs": 44,
+    "estimated_us": 166.51063999999997,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18682,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 756.5057836472988,
+    "plan_us": 251.97770446538925,
+    "metadata_us": 384.6650943160057,
+    "refresh_us": 1393.1485824286938,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 141.14068046222215,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18682,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 754.1737519204617,
+    "plan_us": 1300.710253417492,
+    "metadata_us": 356.4832732081413,
+    "refresh_us": 2411.367278546095,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 141.14068046222215,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18682,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 752.6708766818047,
+    "plan_us": 2131.364308297634,
+    "metadata_us": 348.5158085823059,
+    "refresh_us": 3232.5509935617447,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 141.14068046222215,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1078,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 246.81994691491127,
+    "plan_us": 372.3315894603729,
+    "metadata_us": 643.1005895137787,
+    "refresh_us": 1262.2521258890629,
+    "jobs": 25,
+    "logical_jobs": 12,
+    "estimated_us": 51.03330666666666,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1078,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 174.63555559515953,
+    "plan_us": 93.86707097291946,
+    "metadata_us": 247.62097746133804,
+    "refresh_us": 516.123604029417,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 24.64657777777778,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1078,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 171.91553488373756,
+    "plan_us": 506.08254969120026,
+    "metadata_us": 239.8621290922165,
+    "refresh_us": 917.8602136671543,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 24.64657777777778,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1078,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 170.93941569328308,
+    "plan_us": 1089.8662731051445,
+    "metadata_us": 243.57903748750687,
+    "refresh_us": 1504.3847262859344,
+    "jobs": 15,
+    "logical_jobs": 15,
+    "estimated_us": 24.64657777777778,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5110,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 404.78454902768135,
+    "plan_us": 563.8217553496361,
+    "metadata_us": 718.1167602539062,
+    "refresh_us": 1686.7230646312237,
+    "jobs": 34,
+    "logical_jobs": 21,
+    "estimated_us": 80.61850666666665,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5110,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 377.742201089859,
+    "plan_us": 131.56048953533173,
+    "metadata_us": 280.78537434339523,
+    "refresh_us": 790.088064968586,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 47.990044444444436,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5110,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 303.39565128088,
+    "plan_us": 793.5408502817154,
+    "metadata_us": 265.88328182697296,
+    "refresh_us": 1362.8197833895683,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 47.990044444444436,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5110,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 307.9267218708992,
+    "plan_us": 1600.4936769604683,
+    "metadata_us": 255.91813027858734,
+    "refresh_us": 2164.338529109955,
+    "jobs": 19,
+    "logical_jobs": 19,
+    "estimated_us": 47.990044444444436,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18934,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 791.824609041214,
+    "plan_us": 716.4692506194115,
+    "metadata_us": 907.4350818991661,
+    "refresh_us": 2415.7289415597916,
+    "jobs": 65,
+    "logical_jobs": 52,
+    "estimated_us": 182.23181333333326,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18934,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 759.6288807690144,
+    "plan_us": 255.66667318344116,
+    "metadata_us": 402.63403207063675,
+    "refresh_us": 1417.9295860230923,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 142.1744016355555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18934,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 765.6829431653023,
+    "plan_us": 1338.3366167545319,
+    "metadata_us": 368.005596101284,
+    "refresh_us": 2472.025156021118,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 142.1744016355555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 18934,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 762.1064782142639,
+    "plan_us": 2222.444862127304,
+    "metadata_us": 354.8869863152504,
+    "refresh_us": 3339.4383266568184,
+    "jobs": 44,
+    "logical_jobs": 44,
+    "estimated_us": 142.1744016355555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1942,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 389.1517408192158,
+    "plan_us": 444.8983818292618,
+    "metadata_us": 727.9710844159126,
+    "refresh_us": 1562.0212070643902,
+    "jobs": 38,
+    "logical_jobs": 25,
+    "estimated_us": 86.92261333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1942,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 221.14459425210953,
+    "plan_us": 112.96477168798447,
+    "metadata_us": 281.3069149851799,
+    "refresh_us": 615.4162809252739,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 29.923777777777783,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1942,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 218.5567282140255,
+    "plan_us": 774.5707407593727,
+    "metadata_us": 254.91509586572647,
+    "refresh_us": 1248.0425648391247,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 29.923777777777783,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1942,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 219.79762241244316,
+    "plan_us": 1635.4387626051903,
+    "metadata_us": 251.62752717733383,
+    "refresh_us": 2106.8639121949673,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 29.923777777777783,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5974,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 475.9201779961586,
+    "plan_us": 672.2407415509224,
+    "metadata_us": 863.9069274067879,
+    "refresh_us": 2012.0678469538689,
+    "jobs": 44,
+    "logical_jobs": 31,
+    "estimated_us": 112.79204608,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5974,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 318.02449375391006,
+    "plan_us": 142.99806207418442,
+    "metadata_us": 297.3834052681923,
+    "refresh_us": 758.4059610962868,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 53.267244444444444,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5974,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 325.2212889492512,
+    "plan_us": 1007.1303695440292,
+    "metadata_us": 268.05978268384933,
+    "refresh_us": 1600.4114411771297,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 53.267244444444444,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5974,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 318.9161419868469,
+    "plan_us": 1915.0422886013985,
+    "metadata_us": 268.04208755493164,
+    "refresh_us": 2502.000518143177,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 53.267244444444444,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19798,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 869.972724467516,
+    "plan_us": 1461.2171798944473,
+    "metadata_us": 974.1242974996567,
+    "refresh_us": 3305.31420186162,
+    "jobs": 71,
+    "logical_jobs": 58,
+    "estimated_us": 209.38269333333326,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19798,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 729.3354719877243,
+    "plan_us": 253.10833007097244,
+    "metadata_us": 396.23770862817764,
+    "refresh_us": 1378.6815106868744,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 147.4516016355555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19798,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 726.6433909535408,
+    "plan_us": 1480.8746054768562,
+    "metadata_us": 363.93478512763977,
+    "refresh_us": 2571.452781558037,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 147.4516016355555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19798,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 725.036021322012,
+    "plan_us": 2574.6840983629227,
+    "metadata_us": 365.5431792140007,
+    "refresh_us": 3665.2632988989353,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 147.4516016355555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1402,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 391.4748318493366,
+    "plan_us": 433.89853090047836,
+    "metadata_us": 1511.8541195988655,
+    "refresh_us": 2337.2274823486805,
+    "jobs": 37,
+    "logical_jobs": 24,
+    "estimated_us": 91.73634666666663,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1402,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 222.36332297325134,
+    "plan_us": 112.98991739749908,
+    "metadata_us": 291.2404015660286,
+    "refresh_us": 626.593641936779,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 28.01445660444445,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1402,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 221.52699530124664,
+    "plan_us": 476.9470542669296,
+    "metadata_us": 253.21263819932938,
+    "refresh_us": 951.6866877675056,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 28.01445660444445,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1402,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 221.5745858848095,
+    "plan_us": 1231.2224134802818,
+    "metadata_us": 248.48803877830505,
+    "refresh_us": 1701.2850381433964,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 28.01445660444445,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5434,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 525.6438627839088,
+    "plan_us": 602.0711734890938,
+    "metadata_us": 731.6833361983299,
+    "refresh_us": 1859.3983724713326,
+    "jobs": 45,
+    "logical_jobs": 32,
+    "estimated_us": 120.07319999999996,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5434,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 361.04414612054825,
+    "plan_us": 140.02714306116104,
+    "metadata_us": 297.04347252845764,
+    "refresh_us": 798.1147617101669,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 51.357923271111105,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5434,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 351.49985924363136,
+    "plan_us": 1672.7494075894356,
+    "metadata_us": 277.5890752673149,
+    "refresh_us": 2301.838342100382,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 51.357923271111105,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5434,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 354.870967566967,
+    "plan_us": 1690.7062381505966,
+    "metadata_us": 269.0218389034271,
+    "refresh_us": 2314.5990446209908,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 51.357923271111105,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19258,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 924.0101091563702,
+    "plan_us": 949.8577564954758,
+    "metadata_us": 993.7379509210587,
+    "refresh_us": 2867.6058165729046,
+    "jobs": 77,
+    "logical_jobs": 64,
+    "estimated_us": 223.11048981333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19258,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 810.1129904389381,
+    "plan_us": 320.3870728611946,
+    "metadata_us": 409.2510789632797,
+    "refresh_us": 1539.7511422634125,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 145.54228046222218,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19258,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 806.6089823842049,
+    "plan_us": 1333.8197022676468,
+    "metadata_us": 370.4586997628212,
+    "refresh_us": 2510.887384414673,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 145.54228046222218,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19258,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 810.9323680400848,
+    "plan_us": 2397.7411910891533,
+    "metadata_us": 363.62558603286743,
+    "refresh_us": 3572.2991451621056,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 145.54228046222218,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1654,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 411.1802205443382,
+    "plan_us": 532.4361845850945,
+    "metadata_us": 866.117887198925,
+    "refresh_us": 1809.7342923283577,
+    "jobs": 38,
+    "logical_jobs": 25,
+    "estimated_us": 98.71909333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1654,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 218.7902107834816,
+    "plan_us": 121.36902660131454,
+    "metadata_us": 284.7239375114441,
+    "refresh_us": 624.8831748962402,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 29.04817777777778,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1654,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 228.10343652963638,
+    "plan_us": 573.5885351896286,
+    "metadata_us": 250.06942451000214,
+    "refresh_us": 1051.7613962292671,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 29.04817777777778,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 1654,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 224.19830784201622,
+    "plan_us": 1458.2201838493347,
+    "metadata_us": 253.41473519802094,
+    "refresh_us": 1935.8332268893719,
+    "jobs": 16,
+    "logical_jobs": 16,
+    "estimated_us": 29.04817777777778,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5686,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 580.7117559015751,
+    "plan_us": 1079.3302208185196,
+    "metadata_us": 820.7559585571289,
+    "refresh_us": 2480.7979352772236,
+    "jobs": 50,
+    "logical_jobs": 37,
+    "estimated_us": 132.07860608000001,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5686,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 356.14389926195145,
+    "plan_us": 141.95311814546585,
+    "metadata_us": 312.31530010700226,
+    "refresh_us": 810.4123175144196,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 52.39164444444444,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5686,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 355.8243624866009,
+    "plan_us": 862.7409115433693,
+    "metadata_us": 271.43117040395737,
+    "refresh_us": 1489.9964444339275,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 52.39164444444444,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 5686,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 363.5578788816929,
+    "plan_us": 1816.408708691597,
+    "metadata_us": 276.3057127594948,
+    "refresh_us": 2456.2723003327847,
+    "jobs": 20,
+    "logical_jobs": 20,
+    "estimated_us": 52.39164444444444,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19510,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 946.9826705753803,
+    "plan_us": 788.6504754424095,
+    "metadata_us": 959.1635316610336,
+    "refresh_us": 2694.7966776788235,
+    "jobs": 77,
+    "logical_jobs": 64,
+    "estimated_us": 228.66925333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19510,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 810.4476146399975,
+    "plan_us": 255.48599660396576,
+    "metadata_us": 419.68934237957,
+    "refresh_us": 1485.6229536235332,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 146.57600163555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19510,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 815.0750771164894,
+    "plan_us": 1375.4786923527718,
+    "metadata_us": 365.82350730895996,
+    "refresh_us": 2556.377276778221,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 146.57600163555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 19510,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 811.3277144730091,
+    "plan_us": 2501.61811709404,
+    "metadata_us": 369.6708008646965,
+    "refresh_us": 3682.6166324317455,
+    "jobs": 45,
+    "logical_jobs": 45,
+    "estimated_us": 146.57600163555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 2518,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 541.4510145783424,
+    "plan_us": 494.6300759911537,
+    "metadata_us": 860.859639942646,
+    "refresh_us": 1896.9407305121422,
+    "jobs": 52,
+    "logical_jobs": 39,
+    "estimated_us": 135.9608032711111,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 2518,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 251.66599079966545,
+    "plan_us": 134.5248892903328,
+    "metadata_us": 320.11233270168304,
+    "refresh_us": 706.3032127916813,
+    "jobs": 17,
+    "logical_jobs": 17,
+    "estimated_us": 34.325377777777774,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 2518,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 253.90423834323883,
+    "plan_us": 835.1970463991165,
+    "metadata_us": 269.32545006275177,
+    "refresh_us": 1358.4267348051071,
+    "jobs": 17,
+    "logical_jobs": 17,
+    "estimated_us": 34.325377777777774,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 12,
+    "storage_tokens": 2518,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 248.2520416378975,
+    "plan_us": 3158.3569943904877,
+    "metadata_us": 267.3538401722908,
+    "refresh_us": 3673.962876200676,
+    "jobs": 17,
+    "logical_jobs": 17,
+    "estimated_us": 34.325377777777774,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 6550,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 633.3249621093273,
+    "plan_us": 720.3957065939903,
+    "metadata_us": 894.6293964982033,
+    "refresh_us": 2248.350065201521,
+    "jobs": 56,
+    "logical_jobs": 43,
+    "estimated_us": 159.3042699377778,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 6550,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 348.1961786746979,
+    "plan_us": 157.98024833202362,
+    "metadata_us": 351.27904266119003,
+    "refresh_us": 857.4554696679115,
+    "jobs": 21,
+    "logical_jobs": 21,
+    "estimated_us": 57.66884444444444,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 6550,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 346.9076007604599,
+    "plan_us": 1082.6913639903069,
+    "metadata_us": 284.9157899618149,
+    "refresh_us": 1714.5147547125816,
+    "jobs": 21,
+    "logical_jobs": 21,
+    "estimated_us": 57.66884444444444,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 12,
+    "storage_tokens": 6550,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 354.6147607266903,
+    "plan_us": 2662.348560988903,
+    "metadata_us": 288.3775159716606,
+    "refresh_us": 3305.340837687254,
+    "jobs": 21,
+    "logical_jobs": 21,
+    "estimated_us": 57.66884444444444,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 20374,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 990.3989732265472,
+    "plan_us": 869.7714656591415,
+    "metadata_us": 1056.421548128128,
+    "refresh_us": 2916.591987013817,
+    "jobs": 84,
+    "logical_jobs": 71,
+    "estimated_us": 257.20180935111114,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 20374,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 714.4925184547901,
+    "plan_us": 290.1870757341385,
+    "metadata_us": 1462.077721953392,
+    "refresh_us": 2466.7573161423206,
+    "jobs": 46,
+    "logical_jobs": 46,
+    "estimated_us": 151.85320163555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 20374,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 711.1232727766037,
+    "plan_us": 1530.4023399949074,
+    "metadata_us": 412.45296597480774,
+    "refresh_us": 2653.978578746319,
+    "jobs": 46,
+    "logical_jobs": 46,
+    "estimated_us": 151.85320163555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        9,
+        3
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 12,
+    "storage_tokens": 20374,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 707.5531408190727,
+    "plan_us": 2827.930264174938,
+    "metadata_us": 379.0585324168205,
+    "refresh_us": 3914.5419374108315,
+    "jobs": 46,
+    "logical_jobs": 46,
+    "estimated_us": 151.85320163555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1214,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 309.80827286839485,
+    "plan_us": 1429.7617599368095,
+    "metadata_us": 632.0858374238014,
+    "refresh_us": 2371.655870229006,
+    "jobs": 53,
+    "logical_jobs": 24,
+    "estimated_us": 76.75735999999998,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1214,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 243.55677887797356,
+    "plan_us": 141.96988195180893,
+    "metadata_us": 291.4564684033394,
+    "refresh_us": 676.9831292331219,
+    "jobs": 29,
+    "logical_jobs": 29,
+    "estimated_us": 44.21965027555556,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1214,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 223.59220311045647,
+    "plan_us": 724.7375324368477,
+    "metadata_us": 285.2464094758034,
+    "refresh_us": 1233.5761450231075,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 40.930477653333334,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1214,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 224.15341809391975,
+    "plan_us": 1660.1691022515297,
+    "metadata_us": 280.5301919579506,
+    "refresh_us": 2164.8527123034,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 40.930477653333334,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 8942,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 555.1640875637531,
+    "plan_us": 919.7015315294266,
+    "metadata_us": 1078.493893146515,
+    "refresh_us": 2553.3595122396946,
+    "jobs": 60,
+    "logical_jobs": 31,
+    "estimated_us": 120.6667733333333,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 8942,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 472.49430790543556,
+    "plan_us": 205.0073817372322,
+    "metadata_us": 345.9099680185318,
+    "refresh_us": 1023.4116576611996,
+    "jobs": 36,
+    "logical_jobs": 36,
+    "estimated_us": 88.12906360888887,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 8942,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 467.57953241467476,
+    "plan_us": 1340.1154428720474,
+    "metadata_us": 328.1421959400177,
+    "refresh_us": 2135.83717122674,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 84.83989098666665,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 8942,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 474.84152019023895,
+    "plan_us": 2613.1197810173035,
+    "metadata_us": 316.0471096634865,
+    "refresh_us": 3404.008410871029,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 84.83989098666665,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35438,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1375.8521527051926,
+    "plan_us": 1294.2664325237274,
+    "metadata_us": 1442.2545209527016,
+    "refresh_us": 4112.373106181622,
+    "jobs": 114,
+    "logical_jobs": 85,
+    "estimated_us": 308.6637333333333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35438,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1392.3104852437973,
+    "plan_us": 439.40264731645584,
+    "metadata_us": 659.3158468604088,
+    "refresh_us": 2491.028979420662,
+    "jobs": 84,
+    "logical_jobs": 84,
+    "estimated_us": 268.7582046577778,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35438,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1369.6305453777313,
+    "plan_us": 3562.6059398055077,
+    "metadata_us": 563.0627274513245,
+    "refresh_us": 5495.299212634563,
+    "jobs": 82,
+    "logical_jobs": 82,
+    "estimated_us": 265.4690320355556,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35438,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1371.7297464609146,
+    "plan_us": 4872.56795167923,
+    "metadata_us": 486.77902668714523,
+    "refresh_us": 6731.07672482729,
+    "jobs": 82,
+    "logical_jobs": 82,
+    "estimated_us": 265.4690320355556,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1466,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 347.89079800248146,
+    "plan_us": 470.17354518175125,
+    "metadata_us": 827.5164291262627,
+    "refresh_us": 1645.5807723104954,
+    "jobs": 53,
+    "logical_jobs": 24,
+    "estimated_us": 88.60845333333332,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1466,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 266.13427326083183,
+    "plan_us": 143.97036284208298,
+    "metadata_us": 292.12236404418945,
+    "refresh_us": 702.2270001471043,
+    "jobs": 29,
+    "logical_jobs": 29,
+    "estimated_us": 45.579704320000005,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1466,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 258.6620859801769,
+    "plan_us": 896.6168388724327,
+    "metadata_us": 275.9089693427086,
+    "refresh_us": 1431.1878941953182,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 42.43296327111111,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1466,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 257.26305320858955,
+    "plan_us": 1912.7381965517998,
+    "metadata_us": 275.58114379644394,
+    "refresh_us": 2445.5823935568333,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 42.43296327111111,
+    "max_abs_error": 0.00390625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9194,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 561.792217195034,
+    "plan_us": 938.05231153965,
+    "metadata_us": 1085.0895196199417,
+    "refresh_us": 2584.9340483546257,
+    "jobs": 62,
+    "logical_jobs": 33,
+    "estimated_us": 135.01456000000002,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9194,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 468.6223343014717,
+    "plan_us": 197.41524010896683,
+    "metadata_us": 343.3544188737869,
+    "refresh_us": 1009.3919932842255,
+    "jobs": 36,
+    "logical_jobs": 36,
+    "estimated_us": 89.48911765333331,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9194,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 469.07225623726845,
+    "plan_us": 1482.8676357865334,
+    "metadata_us": 310.6314688920975,
+    "refresh_us": 2262.5713609158993,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 86.34237660444442,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9194,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 459.46501195430756,
+    "plan_us": 2923.9095747470856,
+    "metadata_us": 312.55558133125305,
+    "refresh_us": 3695.930168032646,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 86.34237660444442,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35690,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1283.2500040531158,
+    "plan_us": 1318.98932158947,
+    "metadata_us": 1461.1734077334404,
+    "refresh_us": 4063.412733376026,
+    "jobs": 114,
+    "logical_jobs": 85,
+    "estimated_us": 320.51482666666675,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35690,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1189.8738332092762,
+    "plan_us": 1516.2033960223198,
+    "metadata_us": 525.5741998553276,
+    "refresh_us": 3231.6514290869236,
+    "jobs": 84,
+    "logical_jobs": 84,
+    "estimated_us": 270.11825870222225,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35690,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1175.9649030864239,
+    "plan_us": 2496.4073672890663,
+    "metadata_us": 486.51639372110367,
+    "refresh_us": 4158.888664096594,
+    "jobs": 82,
+    "logical_jobs": 82,
+    "estimated_us": 266.97151765333336,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35690,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1172.1068993210793,
+    "plan_us": 4328.512586653233,
+    "metadata_us": 497.2601309418678,
+    "refresh_us": 5997.87961691618,
+    "jobs": 82,
+    "logical_jobs": 82,
+    "estimated_us": 266.97151765333336,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2330,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 643.709022551775,
+    "plan_us": 1076.684333384037,
+    "metadata_us": 1501.8545091152191,
+    "refresh_us": 3222.247865051031,
+    "jobs": 60,
+    "logical_jobs": 31,
+    "estimated_us": 137.97919999999996,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2330,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 334.61833372712135,
+    "plan_us": 168.73609274625778,
+    "metadata_us": 334.87286418676376,
+    "refresh_us": 838.2272906601429,
+    "jobs": 30,
+    "logical_jobs": 30,
+    "estimated_us": 52.36101098666666,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2330,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 313.8820640742779,
+    "plan_us": 1393.8741758465767,
+    "metadata_us": 297.34522104263306,
+    "refresh_us": 2005.1014609634876,
+    "jobs": 28,
+    "logical_jobs": 28,
+    "estimated_us": 49.21426993777778,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2330,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 310.5661831796169,
+    "plan_us": 3263.295628130436,
+    "metadata_us": 291.50862246751785,
+    "refresh_us": 3865.3704337775707,
+    "jobs": 28,
+    "logical_jobs": 28,
+    "estimated_us": 49.21426993777778,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10058,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 853.8270369172096,
+    "plan_us": 1319.5350766181946,
+    "metadata_us": 1440.0426298379898,
+    "refresh_us": 3613.404743373394,
+    "jobs": 81,
+    "logical_jobs": 52,
+    "estimated_us": 199.36546666666675,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10058,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 558.2742393016815,
+    "plan_us": 233.0215647816658,
+    "metadata_us": 422.8902980685234,
+    "refresh_us": 1214.1861021518707,
+    "jobs": 37,
+    "logical_jobs": 37,
+    "estimated_us": 96.27042431999998,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10058,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 544.8425188660622,
+    "plan_us": 1836.2998962402344,
+    "metadata_us": 343.20447593927383,
+    "refresh_us": 2724.3468910455704,
+    "jobs": 36,
+    "logical_jobs": 36,
+    "estimated_us": 94.37202993777775,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10058,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 548.7133748829365,
+    "plan_us": 4240.6851425766945,
+    "metadata_us": 340.14880657196045,
+    "refresh_us": 5129.547324031591,
+    "jobs": 36,
+    "logical_jobs": 36,
+    "estimated_us": 94.37202993777775,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36554,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1661.4655032753944,
+    "plan_us": 1559.457741677761,
+    "metadata_us": 1671.6700047254562,
+    "refresh_us": 4892.593249678612,
+    "jobs": 137,
+    "logical_jobs": 108,
+    "estimated_us": 389.85912,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36554,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1469.5868827402592,
+    "plan_us": 421.74383997917175,
+    "metadata_us": 545.9580570459366,
+    "refresh_us": 2437.2887797653675,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 276.89956536888894,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36554,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1456.9152146577835,
+    "plan_us": 2726.0584756731987,
+    "metadata_us": 483.30705612897873,
+    "refresh_us": 4666.280746459961,
+    "jobs": 84,
+    "logical_jobs": 84,
+    "estimated_us": 275.0011709866667,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 32,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36554,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1458.9802362024784,
+    "plan_us": 6736.857816576958,
+    "metadata_us": 487.12268471717834,
+    "refresh_us": 8682.960737496614,
+    "jobs": 84,
+    "logical_jobs": 84,
+    "estimated_us": 275.0011709866667,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1374,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 393.57487112283707,
+    "plan_us": 543.4416234493256,
+    "metadata_us": 954.5944631099701,
+    "refresh_us": 1891.6109576821327,
+    "jobs": 53,
+    "logical_jobs": 24,
+    "estimated_us": 94.23362666666657,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1374,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 240.7073974609375,
+    "plan_us": 160.73230654001236,
+    "metadata_us": 300.9950742125511,
+    "refresh_us": 702.434778213501,
+    "jobs": 29,
+    "logical_jobs": 29,
+    "estimated_us": 45.63173262222222,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1374,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 254.9528144299984,
+    "plan_us": 902.8855711221695,
+    "metadata_us": 270.4821527004242,
+    "refresh_us": 1428.320538252592,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 43.09287438222222,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1374,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 256.31366297602654,
+    "plan_us": 1812.029629945755,
+    "metadata_us": 271.45352214574814,
+    "refresh_us": 2339.7968150675297,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 43.09287438222222,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9102,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 673.1066852807999,
+    "plan_us": 974.9652817845345,
+    "metadata_us": 1091.5668681263924,
+    "refresh_us": 2739.6388351917267,
+    "jobs": 68,
+    "logical_jobs": 39,
+    "estimated_us": 148.1298133333333,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9102,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 491.59256741404533,
+    "plan_us": 202.33821123838425,
+    "metadata_us": 350.46786069869995,
+    "refresh_us": 1044.3986393511295,
+    "jobs": 36,
+    "logical_jobs": 36,
+    "estimated_us": 89.54114595555554,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9102,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 509.7070708870888,
+    "plan_us": 1500.0030398368835,
+    "metadata_us": 307.4547275900841,
+    "refresh_us": 2317.1648383140564,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 87.00228771555554,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9102,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 503.1461827456951,
+    "plan_us": 3261.411562561989,
+    "metadata_us": 309.1106191277504,
+    "refresh_us": 4073.6683644354343,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 87.00228771555554,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35598,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1435.1540245115757,
+    "plan_us": 1324.0380212664604,
+    "metadata_us": 1437.5941827893257,
+    "refresh_us": 4196.786228567362,
+    "jobs": 114,
+    "logical_jobs": 85,
+    "estimated_us": 326.14,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35598,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1392.13465154171,
+    "plan_us": 411.68276220560074,
+    "metadata_us": 510.3200674057007,
+    "refresh_us": 2314.1374811530113,
+    "jobs": 84,
+    "logical_jobs": 84,
+    "estimated_us": 270.1702870044445,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35598,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1395.311951637268,
+    "plan_us": 2495.9901347756386,
+    "metadata_us": 483.98692160844803,
+    "refresh_us": 4375.289008021355,
+    "jobs": 82,
+    "logical_jobs": 82,
+    "estimated_us": 267.6314287644445,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35598,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1392.8486034274101,
+    "plan_us": 4246.413707733154,
+    "metadata_us": 472.09300100803375,
+    "refresh_us": 6111.355312168598,
+    "jobs": 82,
+    "logical_jobs": 82,
+    "estimated_us": 267.6314287644445,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1626,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 464.8265428841114,
+    "plan_us": 683.5218518972397,
+    "metadata_us": 1072.7010667324066,
+    "refresh_us": 2221.0494615137577,
+    "jobs": 53,
+    "logical_jobs": 24,
+    "estimated_us": 106.08471999999998,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1626,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 287.2993238270283,
+    "plan_us": 142.52401888370514,
+    "metadata_us": 297.9319542646408,
+    "refresh_us": 727.7552969753742,
+    "jobs": 29,
+    "logical_jobs": 29,
+    "estimated_us": 46.99178666666666,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1626,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 270.61449363827705,
+    "plan_us": 1101.0020971298218,
+    "metadata_us": 273.3282744884491,
+    "refresh_us": 1644.944865256548,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 44.59536,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1626,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 271.1567096412182,
+    "plan_us": 2277.7440026402473,
+    "metadata_us": 276.80862694978714,
+    "refresh_us": 2825.7093392312527,
+    "jobs": 27,
+    "logical_jobs": 27,
+    "estimated_us": 44.59536,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9354,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 708.3396427333355,
+    "plan_us": 1076.7336934804916,
+    "metadata_us": 1224.5168909430504,
+    "refresh_us": 3009.5902271568775,
+    "jobs": 71,
+    "logical_jobs": 42,
+    "estimated_us": 163.7259466666666,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9354,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 509.42664965987206,
+    "plan_us": 220.24009376764297,
+    "metadata_us": 367.47660487890244,
+    "refresh_us": 1097.1433483064175,
+    "jobs": 36,
+    "logical_jobs": 36,
+    "estimated_us": 90.90119999999997,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9354,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 501.0242573916912,
+    "plan_us": 1580.4609283804893,
+    "metadata_us": 306.51967972517014,
+    "refresh_us": 2388.0048654973507,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 88.50477333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9354,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 512.0644345879555,
+    "plan_us": 3132.5360760092735,
+    "metadata_us": 313.769094645977,
+    "refresh_us": 3958.369605243206,
+    "jobs": 34,
+    "logical_jobs": 34,
+    "estimated_us": 88.50477333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35850,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1549.8042106628418,
+    "plan_us": 2475.067973136902,
+    "metadata_us": 1478.7307009100914,
+    "refresh_us": 5503.602884709835,
+    "jobs": 130,
+    "logical_jobs": 101,
+    "estimated_us": 357.9646399999999,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35850,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1428.4370467066765,
+    "plan_us": 393.25281977653503,
+    "metadata_us": 530.5232480168343,
+    "refresh_us": 2352.213114500046,
+    "jobs": 84,
+    "logical_jobs": 84,
+    "estimated_us": 271.5303410488889,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35850,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1410.7363298535347,
+    "plan_us": 2562.1354579925537,
+    "metadata_us": 486.37203872203827,
+    "refresh_us": 4459.243826568127,
+    "jobs": 83,
+    "logical_jobs": 83,
+    "estimated_us": 270.3822610488889,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 35850,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1421.8096621334553,
+    "plan_us": 5118.736997246742,
+    "metadata_us": 490.5732348561287,
+    "refresh_us": 7031.119894236326,
+    "jobs": 83,
+    "logical_jobs": 83,
+    "estimated_us": 270.28199438222225,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2490,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 745.5339655280113,
+    "plan_us": 881.4791217446327,
+    "metadata_us": 1293.041743338108,
+    "refresh_us": 2920.054830610752,
+    "jobs": 79,
+    "logical_jobs": 50,
+    "estimated_us": 179.17405333333335,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2490,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 339.8585133254528,
+    "plan_us": 177.1068200469017,
+    "metadata_us": 343.5453400015831,
+    "refresh_us": 860.5106733739376,
+    "jobs": 30,
+    "logical_jobs": 30,
+    "estimated_us": 53.773093333333335,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2490,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 335.21661534905434,
+    "plan_us": 1413.3201912045479,
+    "metadata_us": 287.90440410375595,
+    "refresh_us": 2036.4412106573582,
+    "jobs": 29,
+    "logical_jobs": 29,
+    "estimated_us": 52.524746666666665,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2490,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 334.73577350378036,
+    "plan_us": 3172.4991276860237,
+    "metadata_us": 297.15802520513535,
+    "refresh_us": 3804.3929263949394,
+    "jobs": 29,
+    "logical_jobs": 29,
+    "estimated_us": 52.524746666666665,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10218,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 895.9595113992691,
+    "plan_us": 1276.2714177370071,
+    "metadata_us": 1378.517597913742,
+    "refresh_us": 3550.7485270500183,
+    "jobs": 91,
+    "logical_jobs": 62,
+    "estimated_us": 229.38374549333327,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10218,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 520.072877407074,
+    "plan_us": 244.64819580316544,
+    "metadata_us": 527.2123962640762,
+    "refresh_us": 1291.9334694743156,
+    "jobs": 37,
+    "logical_jobs": 37,
+    "estimated_us": 97.68250666666664,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10218,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 585.7609212398529,
+    "plan_us": 1864.0514463186264,
+    "metadata_us": 361.5589812397957,
+    "refresh_us": 2811.371348798275,
+    "jobs": 37,
+    "logical_jobs": 36,
+    "estimated_us": 97.68250666666664,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10218,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 520.6896923482418,
+    "plan_us": 3959.4927802681923,
+    "metadata_us": 328.6711871623993,
+    "refresh_us": 4808.853659778833,
+    "jobs": 37,
+    "logical_jobs": 37,
+    "estimated_us": 97.68250666666664,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36714,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1716.7014069855213,
+    "plan_us": 3388.2884308695793,
+    "metadata_us": 1677.34082788229,
+    "refresh_us": 6782.3306657373905,
+    "jobs": 143,
+    "logical_jobs": 114,
+    "estimated_us": 414.82546666666696,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36714,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1348.7677089869976,
+    "plan_us": 435.0030794739723,
+    "metadata_us": 533.5360765457153,
+    "refresh_us": 2317.3068650066853,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 278.3116477155556,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36714,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1343.723013997078,
+    "plan_us": 2735.7470244169235,
+    "metadata_us": 488.1247878074646,
+    "refresh_us": 4567.594826221466,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 278.3116477155556,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 192,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36714,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1346.4687392115593,
+    "plan_us": 5563.013255596161,
+    "metadata_us": 487.93479800224304,
+    "refresh_us": 7397.416792809963,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 278.3116477155555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1950,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 740.7331839203835,
+    "plan_us": 828.6451920866966,
+    "metadata_us": 1205.2953243255615,
+    "refresh_us": 2774.6737003326416,
+    "jobs": 77,
+    "logical_jobs": 48,
+    "estimated_us": 187.10850666666684,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1950,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 313.92574310302734,
+    "plan_us": 173.59014600515366,
+    "metadata_us": 342.50691533088684,
+    "refresh_us": 830.0228044390678,
+    "jobs": 31,
+    "logical_jobs": 31,
+    "estimated_us": 54.43493262222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1950,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 305.1978535950184,
+    "plan_us": 806.848518550396,
+    "metadata_us": 292.4147993326187,
+    "refresh_us": 1404.461171478033,
+    "jobs": 30,
+    "logical_jobs": 30,
+    "estimated_us": 53.15731320888888,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 1950,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 305.6459128856659,
+    "plan_us": 2431.9905787706375,
+    "metadata_us": 297.32845723629,
+    "refresh_us": 3034.9649488925934,
+    "jobs": 30,
+    "logical_jobs": 30,
+    "estimated_us": 53.15731320888888,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9678,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1007.9313069581985,
+    "plan_us": 1169.3751439452171,
+    "metadata_us": 1290.4582545161247,
+    "refresh_us": 3467.7647054195404,
+    "jobs": 92,
+    "logical_jobs": 63,
+    "estimated_us": 241.0046933333334,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9678,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 541.2142723798752,
+    "plan_us": 241.35783314704895,
+    "metadata_us": 415.86533188819885,
+    "refresh_us": 1198.437437415123,
+    "jobs": 38,
+    "logical_jobs": 38,
+    "estimated_us": 98.34434595555554,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9678,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 545.3529767692089,
+    "plan_us": 1399.2683961987495,
+    "metadata_us": 342.41005778312683,
+    "refresh_us": 2287.0314307510853,
+    "jobs": 37,
+    "logical_jobs": 37,
+    "estimated_us": 97.06672654222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9678,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 537.6844666898251,
+    "plan_us": 3375.5172044038773,
+    "metadata_us": 327.5414928793907,
+    "refresh_us": 4240.743163973093,
+    "jobs": 37,
+    "logical_jobs": 37,
+    "estimated_us": 97.06672654222221,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36174,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1826.7299979925156,
+    "plan_us": 2617.5007224082947,
+    "metadata_us": 1474.6803790330887,
+    "refresh_us": 5918.911099433899,
+    "jobs": 154,
+    "logical_jobs": 125,
+    "estimated_us": 439.3104268799999,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36174,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1467.900164425373,
+    "plan_us": 425.008125603199,
+    "metadata_us": 562.9099905490875,
+    "refresh_us": 2455.8182805776596,
+    "jobs": 86,
+    "logical_jobs": 86,
+    "estimated_us": 278.97348700444445,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36174,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1455.2357606589794,
+    "plan_us": 2530.0029665231705,
+    "metadata_us": 505.814328789711,
+    "refresh_us": 4491.053055971861,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 277.69586759111115,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 12,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36174,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1459.4493433833122,
+    "plan_us": 4834.68733727932,
+    "metadata_us": 494.9234426021576,
+    "refresh_us": 6789.06012326479,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 277.69586759111115,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2202,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 815.9886114299297,
+    "plan_us": 1005.7548061013222,
+    "metadata_us": 1384.851522743702,
+    "refresh_us": 3206.594940274954,
+    "jobs": 79,
+    "logical_jobs": 50,
+    "estimated_us": 201.4562933333334,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2202,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 341.95734187960625,
+    "plan_us": 184.31711941957474,
+    "metadata_us": 363.94596099853516,
+    "refresh_us": 890.2204222977161,
+    "jobs": 31,
+    "logical_jobs": 31,
+    "estimated_us": 55.79498666666666,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2202,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 331.6055051982403,
+    "plan_us": 980.7860478758812,
+    "metadata_us": 295.405276119709,
+    "refresh_us": 1607.7968291938305,
+    "jobs": 30,
+    "logical_jobs": 30,
+    "estimated_us": 54.54664,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 2202,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 333.0153413116932,
+    "plan_us": 2910.3318229317665,
+    "metadata_us": 293.8173711299896,
+    "refresh_us": 3537.1645353734493,
+    "jobs": 30,
+    "logical_jobs": 30,
+    "estimated_us": 54.54664,
+    "max_abs_error": 0.001953125
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9930,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1089.3957689404488,
+    "plan_us": 1236.09509319067,
+    "metadata_us": 1295.638270676136,
+    "refresh_us": 3621.129132807255,
+    "jobs": 103,
+    "logical_jobs": 74,
+    "estimated_us": 266.6461454933333,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9930,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 583.9168094098568,
+    "plan_us": 229.00477051734924,
+    "metadata_us": 400.16602724790573,
+    "refresh_us": 1213.0876071751118,
+    "jobs": 38,
+    "logical_jobs": 38,
+    "estimated_us": 99.70439999999998,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9930,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 583.6534313857555,
+    "plan_us": 1541.2922948598862,
+    "metadata_us": 328.41693609952927,
+    "refresh_us": 2453.362662345171,
+    "jobs": 37,
+    "logical_jobs": 37,
+    "estimated_us": 98.45605333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 9930,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 577.069353312254,
+    "plan_us": 3701.108507812023,
+    "metadata_us": 323.58523458242416,
+    "refresh_us": 4601.763095706701,
+    "jobs": 37,
+    "logical_jobs": 37,
+    "estimated_us": 98.45605333333332,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36426,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1872.111950069666,
+    "plan_us": 1490.4364943504333,
+    "metadata_us": 1528.4344553947449,
+    "refresh_us": 4890.982899814844,
+    "jobs": 154,
+    "logical_jobs": 125,
+    "estimated_us": 450.83951999999994,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36426,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1491.1681413650513,
+    "plan_us": 2050.9306341409683,
+    "metadata_us": 556.5788596868515,
+    "refresh_us": 4098.677635192871,
+    "jobs": 86,
+    "logical_jobs": 86,
+    "estimated_us": 280.3335410488889,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36426,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1476.6904525458813,
+    "plan_us": 2557.4536994099617,
+    "metadata_us": 502.07599997520447,
+    "refresh_us": 4536.220151931047,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 279.08519438222226,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 96,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 36426,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1478.0811965465546,
+    "plan_us": 5000.660195946693,
+    "metadata_us": 492.98908561468124,
+    "refresh_us": 6971.730478107929,
+    "jobs": 85,
+    "logical_jobs": 85,
+    "estimated_us": 279.08519438222226,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 3066,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1051.4866560697556,
+    "plan_us": 902.1898731589317,
+    "metadata_us": 1288.6282056570053,
+    "refresh_us": 3242.3047348856926,
+    "jobs": 108,
+    "logical_jobs": 79,
+    "estimated_us": 278.6028364800001,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 3066,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 397.4325954914093,
+    "plan_us": 187.17721104621887,
+    "metadata_us": 395.2598199248314,
+    "refresh_us": 979.8696264624596,
+    "jobs": 32,
+    "logical_jobs": 32,
+    "estimated_us": 62.576293333333325,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 3066,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 393.2792693376541,
+    "plan_us": 1505.8619901537895,
+    "metadata_us": 310.83449721336365,
+    "refresh_us": 2209.9757567048073,
+    "jobs": 31,
+    "logical_jobs": 31,
+    "estimated_us": 61.327946666666655,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 24
+    },
+    "requests": 24,
+    "storage_tokens": 3066,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 398.05881679058075,
+    "plan_us": 3542.9205745458603,
+    "metadata_us": 309.0817481279373,
+    "refresh_us": 4250.061139464378,
+    "jobs": 31,
+    "logical_jobs": 31,
+    "estimated_us": 61.327946666666655,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10794,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1216.377504169941,
+    "plan_us": 1388.6075466871262,
+    "metadata_us": 1428.7615194916725,
+    "refresh_us": 4033.7465703487396,
+    "jobs": 115,
+    "logical_jobs": 86,
+    "estimated_us": 322.51224981333326,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10794,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 575.4604004323483,
+    "plan_us": 239.61998522281647,
+    "metadata_us": 425.33501982688904,
+    "refresh_us": 1240.4154054820538,
+    "jobs": 39,
+    "logical_jobs": 39,
+    "estimated_us": 106.48570666666664,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10794,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 637.661200016737,
+    "plan_us": 1941.7079165577888,
+    "metadata_us": 371.47291004657745,
+    "refresh_us": 2950.8420266211033,
+    "jobs": 39,
+    "logical_jobs": 38,
+    "estimated_us": 106.48570666666664,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 192
+    },
+    "requests": 24,
+    "storage_tokens": 10794,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 576.3658322393894,
+    "plan_us": 4367.075860500336,
+    "metadata_us": 342.03287214040756,
+    "refresh_us": 5285.474564880133,
+    "jobs": 39,
+    "logical_jobs": 39,
+    "estimated_us": 106.48570666666664,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 37290,
+    "method": "request",
+    "seed": 202,
+    "kernel_us": 1980.7413220405579,
+    "plan_us": 3159.068524837494,
+    "metadata_us": 1697.8122293949127,
+    "refresh_us": 6837.6220762729645,
+    "jobs": 169,
+    "logical_jobs": 140,
+    "estimated_us": 510.56775530666613,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 37290,
+    "method": "fixed",
+    "seed": 202,
+    "kernel_us": 1325.40138438344,
+    "plan_us": 407.0345312356949,
+    "metadata_us": 575.2528086304665,
+    "refresh_us": 2307.6887242496014,
+    "jobs": 87,
+    "logical_jobs": 87,
+    "estimated_us": 287.1148477155555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 37290,
+    "method": "greedy",
+    "seed": 202,
+    "kernel_us": 1324.686873704195,
+    "plan_us": 2771.0264548659325,
+    "metadata_us": 504.394993185997,
+    "refresh_us": 4600.1083217561245,
+    "jobs": 87,
+    "logical_jobs": 87,
+    "estimated_us": 287.1148477155555,
+    "max_abs_error": 0.0009765625
+  },
+  {
+    "shape": {
+      "fanout": [
+        17,
+        7
+      ],
+      "root": 768,
+      "shared": 384,
+      "private": 768
+    },
+    "requests": 24,
+    "storage_tokens": 37290,
+    "method": "cube",
+    "seed": 202,
+    "kernel_us": 1327.9247097671032,
+    "plan_us": 5815.502256155014,
+    "metadata_us": 499.5977506041527,
+    "refresh_us": 7643.02471652627,
+    "jobs": 87,
+    "logical_jobs": 87,
+    "estimated_us": 287.1148477155555,
+    "max_abs_error": 0.0009765625
+  }
+]

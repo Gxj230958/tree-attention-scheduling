@@ -1,0 +1,15 @@
+{
+  "upstream": "https://github.com/PanZaifeng/FastTree-Artifact",
+  "upstream_commit": "167928b56513d8ac4ae4948da70b9f6ef07d8f5f",
+  "python": "3.11.14",
+  "torch": "2.9.0+cpu",
+  "torch_npu": "2.9.0.post1+gitdc51c2d",
+  "triton_ascend": "3.2.0.dev20260322",
+  "transformers": "4.57.6",
+  "cann": "8.5.1",
+  "device": "Ascend 910B2C, 64 GiB",
+  "physical_card": 14,
+  "model": "Qwen/Qwen3-4B",
+  "model_repository": "https://modelscope.cn/models/Qwen/Qwen3-4B",
+  "model_file_revisions": "configs/model_source.json"
+}

@@ -1,0 +1,2027 @@
+[
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 13.373008640000004,
+      "fixed": 9.567362560000001,
+      "greedy": 9.496009813333334,
+      "cube": 9.496009813333334
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 14.370320924444448,
+      "fixed": 10.564674844444445,
+      "greedy": 10.493322097777778,
+      "cube": 10.493322097777778
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 20.362267591111113,
+      "fixed": 14.059928177777776,
+      "greedy": 13.98857543111111,
+      "cube": 13.98857543111111
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 14.370320924444448,
+      "fixed": 10.564674844444445,
+      "greedy": 10.49332209777778,
+      "cube": 10.49332209777778
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 15.367633208888892,
+      "fixed": 11.561987128888891,
+      "greedy": 11.490634382222224,
+      "cube": 11.490634382222224
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 21.35957987555556,
+      "fixed": 15.057240462222222,
+      "greedy": 14.985887715555554,
+      "cube": 14.985887715555554
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 20.36226759111111,
+      "fixed": 14.059928177777778,
+      "greedy": 13.98857543111111,
+      "cube": 13.98857543111111
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 21.359579875555553,
+      "fixed": 15.057240462222222,
+      "greedy": 14.985887715555554,
+      "cube": 14.985887715555554
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      8,
+      8,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 27.351526542222224,
+      "fixed": 18.552493795555552,
+      "greedy": 18.481141048888887,
+      "cube": 18.481141048888887
+    },
+    "jobs": {
+      "request": 8,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 14.297503146666669,
+      "fixed": 9.982132622222224,
+      "greedy": 9.958257066666668,
+      "cube": 9.958257066666668
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 15.294815431111113,
+      "fixed": 10.979444906666668,
+      "greedy": 10.955569351111112,
+      "cube": 10.955569351111112
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 21.286762097777782,
+      "fixed": 14.47469824,
+      "greedy": 14.450822684444445,
+      "cube": 14.450822684444445
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 15.294815431111113,
+      "fixed": 10.979444906666668,
+      "greedy": 10.955569351111112,
+      "cube": 10.955569351111112
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 16.29212771555556,
+      "fixed": 11.976757191111114,
+      "greedy": 11.952881635555556,
+      "cube": 11.952881635555556
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 22.284074382222222,
+      "fixed": 15.472010524444444,
+      "greedy": 15.448134968888887,
+      "cube": 15.448134968888887
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 21.28676209777778,
+      "fixed": 14.47469824,
+      "greedy": 14.450822684444443,
+      "cube": 14.450822684444443
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 22.284074382222222,
+      "fixed": 15.472010524444444,
+      "greedy": 15.448134968888887,
+      "cube": 15.448134968888887
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      64,
+      64,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 28.276021048888886,
+      "fixed": 18.967263857777773,
+      "greedy": 18.943388302222218,
+      "cube": 18.943388302222218
+    },
+    "jobs": {
+      "request": 8,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 6
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": true
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 17.792756479999998,
+      "fixed": 11.729759288888891,
+      "greedy": 11.705883733333335,
+      "cube": 11.705883733333335
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 18.790068764444445,
+      "fixed": 12.727071573333335,
+      "greedy": 12.70319601777778,
+      "cube": 12.70319601777778
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 24.78201543111111,
+      "fixed": 16.222324906666664,
+      "greedy": 16.198449351111112,
+      "cube": 16.198449351111112
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 18.790068764444445,
+      "fixed": 12.727071573333337,
+      "greedy": 12.70319601777778,
+      "cube": 12.70319601777778
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 19.78738104888889,
+      "fixed": 13.72438385777778,
+      "greedy": 13.700508302222223,
+      "cube": 13.700508302222223
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 25.77932771555555,
+      "fixed": 17.21963719111111,
+      "greedy": 17.195761635555556,
+      "cube": 17.195761635555556
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 24.78201543111111,
+      "fixed": 16.222324906666667,
+      "greedy": 16.198449351111112,
+      "cube": 16.198449351111112
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 25.77932771555555,
+      "fixed": 17.21963719111111,
+      "greedy": 17.195761635555556,
+      "cube": 17.195761635555556
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      16,
+      256,
+      256,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 31.771274382222213,
+      "fixed": 20.714890524444442,
+      "greedy": 20.691014968888886,
+      "cube": 20.691014968888886
+    },
+    "jobs": {
+      "request": 8,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": true,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 15.389769813333338,
+      "fixed": 10.066018702222223,
+      "greedy": 10.066018702222223,
+      "cube": 10.066018702222223
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 16.387082097777782,
+      "fixed": 11.063330986666667,
+      "greedy": 11.063330986666667,
+      "cube": 11.063330986666667
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 22.37902876444445,
+      "fixed": 14.55858432,
+      "greedy": 14.55858432,
+      "cube": 14.55858432
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 16.387082097777782,
+      "fixed": 11.063330986666667,
+      "greedy": 11.063330986666669,
+      "cube": 11.063330986666669
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 17.384394382222226,
+      "fixed": 12.060643271111113,
+      "greedy": 12.060643271111113,
+      "cube": 12.060643271111113
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 23.37634104888889,
+      "fixed": 15.555896604444444,
+      "greedy": 15.555896604444444,
+      "cube": 15.555896604444444
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 22.379028764444445,
+      "fixed": 14.55858432,
+      "greedy": 14.55858432,
+      "cube": 14.55858432
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 23.376341048888893,
+      "fixed": 15.555896604444444,
+      "greedy": 15.555896604444444,
+      "cube": 15.555896604444444
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      8,
+      8,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 29.36828771555556,
+      "fixed": 19.051149937777772,
+      "greedy": 19.051149937777772,
+      "cube": 19.051149937777772
+    },
+    "jobs": {
+      "request": 8,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 16.31426432,
+      "fixed": 10.480788764444446,
+      "greedy": 10.480788764444446,
+      "cube": 10.480788764444446
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 17.311576604444447,
+      "fixed": 11.47810104888889,
+      "greedy": 11.47810104888889,
+      "cube": 11.47810104888889
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 23.30352327111111,
+      "fixed": 14.97335438222222,
+      "greedy": 14.97335438222222,
+      "cube": 14.97335438222222
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 17.311576604444443,
+      "fixed": 11.478101048888892,
+      "greedy": 11.47810104888889,
+      "cube": 11.47810104888889
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 18.30888888888889,
+      "fixed": 12.475413333333336,
+      "greedy": 12.475413333333336,
+      "cube": 12.475413333333336
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 24.300835555555558,
+      "fixed": 15.970666666666666,
+      "greedy": 15.970666666666666,
+      "cube": 15.970666666666666
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 23.30352327111111,
+      "fixed": 14.973354382222222,
+      "greedy": 14.97335438222222,
+      "cube": 14.97335438222222
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 24.300835555555558,
+      "fixed": 15.970666666666666,
+      "greedy": 15.970666666666666,
+      "cube": 15.970666666666666
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      64,
+      64,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 30.292782222222222,
+      "fixed": 19.465919999999997,
+      "greedy": 19.465919999999997,
+      "cube": 19.465919999999997
+    },
+    "jobs": {
+      "request": 8,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 19.809517653333334,
+      "fixed": 12.228415431111115,
+      "greedy": 12.228415431111113,
+      "cube": 12.228415431111113
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 20.806829937777774,
+      "fixed": 13.225727715555559,
+      "greedy": 13.225727715555557,
+      "cube": 13.225727715555557
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 26.798776604444438,
+      "fixed": 16.720981048888888,
+      "greedy": 16.720981048888888,
+      "cube": 16.720981048888888
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 20.806829937777774,
+      "fixed": 13.225727715555559,
+      "greedy": 13.225727715555559,
+      "cube": 13.225727715555559
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 21.80414222222222,
+      "fixed": 14.223040000000003,
+      "greedy": 14.223040000000003,
+      "cube": 14.223040000000003
+    },
+    "jobs": {
+      "request": 4,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 27.796088888888885,
+      "fixed": 17.718293333333335,
+      "greedy": 17.718293333333335,
+      "cube": 17.718293333333335
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 26.798776604444438,
+      "fixed": 16.720981048888888,
+      "greedy": 16.720981048888888,
+      "cube": 16.720981048888888
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 27.796088888888885,
+      "fixed": 17.71829333333333,
+      "greedy": 17.71829333333333,
+      "cube": 17.71829333333333
+    },
+    "jobs": {
+      "request": 6,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      128,
+      256,
+      256,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 33.78803555555555,
+      "fixed": 21.213546666666666,
+      "greedy": 21.213546666666666,
+      "cube": 21.213546666666666
+    },
+    "jobs": {
+      "request": 8,
+      "fixed": 7,
+      "greedy": 7,
+      "cube": 7
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 39.28598641777778,
+      "fixed": 15.537200924444447,
+      "greedy": 15.537200924444447,
+      "cube": 15.537200924444447
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 40.28329870222221,
+      "fixed": 16.53451320888889,
+      "greedy": 16.53451320888889,
+      "cube": 16.53451320888889
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 46.37019975111111,
+      "fixed": 20.02976654222222,
+      "greedy": 20.02976654222222,
+      "cube": 20.02976654222222
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 40.28329870222222,
+      "fixed": 16.53451320888889,
+      "greedy": 16.53451320888889,
+      "cube": 16.53451320888889
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 41.28061098666666,
+      "fixed": 17.531825493333333,
+      "greedy": 17.531825493333333,
+      "cube": 17.531825493333333
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 47.36751203555555,
+      "fixed": 21.027078826666664,
+      "greedy": 21.027078826666664,
+      "cube": 21.027078826666664
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 46.37019975111111,
+      "fixed": 20.02976654222222,
+      "greedy": 20.02976654222222,
+      "cube": 20.02976654222222
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 47.367512035555556,
+      "fixed": 21.027078826666664,
+      "greedy": 21.027078826666664,
+      "cube": 21.027078826666664
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      8,
+      8,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 53.454413084444454,
+      "fixed": 24.522332159999998,
+      "greedy": 24.522332159999998,
+      "cube": 24.522332159999998
+    },
+    "jobs": {
+      "request": 16,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 40.11552654222222,
+      "fixed": 15.95197098666667,
+      "greedy": 15.95197098666667,
+      "cube": 15.95197098666667
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 41.11283882666666,
+      "fixed": 16.949283271111113,
+      "greedy": 16.94928327111111,
+      "cube": 16.94928327111111
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 47.10478549333333,
+      "fixed": 20.444536604444444,
+      "greedy": 20.44453660444444,
+      "cube": 20.44453660444444
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 41.11283882666667,
+      "fixed": 16.949283271111113,
+      "greedy": 16.94928327111111,
+      "cube": 16.94928327111111
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 42.1101511111111,
+      "fixed": 17.946595555555557,
+      "greedy": 17.946595555555557,
+      "cube": 17.946595555555557
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 48.10209777777777,
+      "fixed": 21.441848888888888,
+      "greedy": 21.441848888888888,
+      "cube": 21.441848888888888
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 47.10478549333333,
+      "fixed": 20.44453660444444,
+      "greedy": 20.44453660444444,
+      "cube": 20.44453660444444
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 48.10209777777777,
+      "fixed": 21.441848888888888,
+      "greedy": 21.441848888888888,
+      "cube": 21.441848888888888
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      64,
+      64,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 54.09404444444444,
+      "fixed": 24.93710222222222,
+      "greedy": 24.93710222222222,
+      "cube": 24.93710222222222
+    },
+    "jobs": {
+      "request": 16,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      16,
+      16,
+      16,
+      16
+    ],
+    "cost_us": {
+      "request": 43.61077987555555,
+      "fixed": 17.699597653333335,
+      "greedy": 17.699597653333335,
+      "cube": 17.699597653333335
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      16,
+      128,
+      16,
+      128
+    ],
+    "cost_us": {
+      "request": 44.60809215999999,
+      "fixed": 18.69690993777778,
+      "greedy": 18.69690993777778,
+      "cube": 18.69690993777778
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      16,
+      512,
+      16,
+      512
+    ],
+    "cost_us": {
+      "request": 50.60003882666665,
+      "fixed": 22.19216327111111,
+      "greedy": 22.19216327111111,
+      "cube": 22.19216327111111
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      128,
+      16,
+      128,
+      16
+    ],
+    "cost_us": {
+      "request": 44.60809215999999,
+      "fixed": 18.69690993777778,
+      "greedy": 18.69690993777778,
+      "cube": 18.69690993777778
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      128,
+      128,
+      128,
+      128
+    ],
+    "cost_us": {
+      "request": 45.60540444444443,
+      "fixed": 19.694222222222223,
+      "greedy": 19.694222222222223,
+      "cube": 19.694222222222223
+    },
+    "jobs": {
+      "request": 12,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      128,
+      512,
+      128,
+      512
+    ],
+    "cost_us": {
+      "request": 51.59735111111109,
+      "fixed": 23.189475555555557,
+      "greedy": 23.189475555555557,
+      "cube": 23.189475555555557
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      512,
+      16,
+      512,
+      16
+    ],
+    "cost_us": {
+      "request": 50.600038826666655,
+      "fixed": 22.19216327111111,
+      "greedy": 22.19216327111111,
+      "cube": 22.19216327111111
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      512,
+      128,
+      512,
+      128
+    ],
+    "cost_us": {
+      "request": 51.59735111111109,
+      "fixed": 23.189475555555553,
+      "greedy": 23.189475555555557,
+      "cube": 23.189475555555557
+    },
+    "jobs": {
+      "request": 14,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  },
+  {
+    "lengths": [
+      1024,
+      256,
+      256,
+      512,
+      512,
+      512,
+      512
+    ],
+    "cost_us": {
+      "request": 57.58929777777775,
+      "fixed": 26.684728888888884,
+      "greedy": 26.684728888888884,
+      "cube": 26.684728888888884
+    },
+    "jobs": {
+      "request": 16,
+      "fixed": 8,
+      "greedy": 8,
+      "cube": 8
+    },
+    "cube_differs_fixed": false,
+    "cube_differs_greedy": false
+  }
+]

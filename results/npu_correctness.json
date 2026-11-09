@@ -1,0 +1,226 @@
+[
+  {
+    "case": "unequal",
+    "dtype": "torch.float16",
+    "method": "request",
+    "max_abs_error": 0.000244140625,
+    "jobs": 7
+  },
+  {
+    "case": "unequal",
+    "dtype": "torch.float16",
+    "method": "fixed",
+    "max_abs_error": 0.000244140625,
+    "jobs": 6
+  },
+  {
+    "case": "unequal",
+    "dtype": "torch.float16",
+    "method": "greedy",
+    "max_abs_error": 0.000244140625,
+    "jobs": 6
+  },
+  {
+    "case": "unequal",
+    "dtype": "torch.float16",
+    "method": "cube",
+    "max_abs_error": 0.000244140625,
+    "jobs": 6
+  },
+  {
+    "case": "unequal",
+    "dtype": "torch.bfloat16",
+    "method": "request",
+    "max_abs_error": 0.001953125,
+    "jobs": 7
+  },
+  {
+    "case": "unequal",
+    "dtype": "torch.bfloat16",
+    "method": "fixed",
+    "max_abs_error": 0.001953125,
+    "jobs": 6
+  },
+  {
+    "case": "unequal",
+    "dtype": "torch.bfloat16",
+    "method": "greedy",
+    "max_abs_error": 0.001953125,
+    "jobs": 6
+  },
+  {
+    "case": "unequal",
+    "dtype": "torch.bfloat16",
+    "method": "cube",
+    "max_abs_error": 0.001953125,
+    "jobs": 6
+  },
+  {
+    "case": "none",
+    "dtype": "torch.float16",
+    "method": "request",
+    "max_abs_error": 0.0009765625,
+    "jobs": 3
+  },
+  {
+    "case": "none",
+    "dtype": "torch.float16",
+    "method": "fixed",
+    "max_abs_error": 0.0009765625,
+    "jobs": 3
+  },
+  {
+    "case": "none",
+    "dtype": "torch.float16",
+    "method": "greedy",
+    "max_abs_error": 0.0009765625,
+    "jobs": 3
+  },
+  {
+    "case": "none",
+    "dtype": "torch.float16",
+    "method": "cube",
+    "max_abs_error": 0.0009765625,
+    "jobs": 3
+  },
+  {
+    "case": "none",
+    "dtype": "torch.bfloat16",
+    "method": "request",
+    "max_abs_error": 0.0078125,
+    "jobs": 3
+  },
+  {
+    "case": "none",
+    "dtype": "torch.bfloat16",
+    "method": "fixed",
+    "max_abs_error": 0.0078125,
+    "jobs": 3
+  },
+  {
+    "case": "none",
+    "dtype": "torch.bfloat16",
+    "method": "greedy",
+    "max_abs_error": 0.0078125,
+    "jobs": 3
+  },
+  {
+    "case": "none",
+    "dtype": "torch.bfloat16",
+    "method": "cube",
+    "max_abs_error": 0.0078125,
+    "jobs": 3
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.float16",
+    "method": "request",
+    "max_abs_error": 0.0009765625,
+    "jobs": 4
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.float16",
+    "method": "fixed",
+    "max_abs_error": 0.0009765625,
+    "jobs": 4
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.float16",
+    "method": "greedy",
+    "max_abs_error": 0.0009765625,
+    "jobs": 4
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.float16",
+    "method": "cube",
+    "max_abs_error": 0.0009765625,
+    "jobs": 4
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.bfloat16",
+    "method": "request",
+    "max_abs_error": 0.0078125,
+    "jobs": 4
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.bfloat16",
+    "method": "fixed",
+    "max_abs_error": 0.0078125,
+    "jobs": 4
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.bfloat16",
+    "method": "greedy",
+    "max_abs_error": 0.0078125,
+    "jobs": 4
+  },
+  {
+    "case": "duplicate_terminal",
+    "dtype": "torch.bfloat16",
+    "method": "cube",
+    "max_abs_error": 0.0078125,
+    "jobs": 4
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.float16",
+    "method": "request",
+    "max_abs_error": 0.000244140625,
+    "jobs": 96
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.float16",
+    "method": "fixed",
+    "max_abs_error": 0.000244140625,
+    "jobs": 38
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.float16",
+    "method": "greedy",
+    "max_abs_error": 0.000244140625,
+    "jobs": 38
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.float16",
+    "method": "cube",
+    "max_abs_error": 0.000244140625,
+    "jobs": 38
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.bfloat16",
+    "method": "request",
+    "max_abs_error": 0.001953125,
+    "jobs": 96
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.bfloat16",
+    "method": "fixed",
+    "max_abs_error": 0.001953125,
+    "jobs": 38
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.bfloat16",
+    "method": "greedy",
+    "max_abs_error": 0.001953125,
+    "jobs": 38
+  },
+  {
+    "case": "wide",
+    "dtype": "torch.bfloat16",
+    "method": "cube",
+    "max_abs_error": 0.001953125,
+    "jobs": 38
+  }
+]

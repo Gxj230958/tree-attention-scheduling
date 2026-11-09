@@ -1,0 +1,183 @@
+{
+  "inputs": [
+    "results/decode_plan_run1.json",
+    "results/decode_plan_run2.json",
+    "results/decode_plan_run3.json"
+  ],
+  "results": [
+    {
+      "method": "fixed",
+      "mode": "rebuild",
+      "seeds": [
+        301,
+        302,
+        303
+      ],
+      "initial_plan_us": 16.65111631155014,
+      "initial_plan_us_range": [
+        16.475096344947815,
+        17.19314604997635
+      ],
+      "planning_us": 1042.3055500723422,
+      "planning_us_range": [
+        1038.558897562325,
+        1064.3414570949972
+      ],
+      "kernel_us": 349.3168391287327,
+      "kernel_us_range": [
+        349.17183802463114,
+        360.4229772463441
+      ],
+      "amortized_us": 1400.0564464367926,
+      "amortized_us_range": [
+        1392.652082722634,
+        1414.5539898891002
+      ]
+    },
+    {
+      "method": "fixed",
+      "mode": "cached",
+      "seeds": [
+        301,
+        302,
+        303
+      ],
+      "initial_plan_us": 755.0278678536415,
+      "initial_plan_us_range": [
+        739.78491127491,
+        1678.897999227047
+      ],
+      "planning_us": 143.80569336935878,
+      "planning_us_range": [
+        126.89060531556606,
+        146.07998309656978
+      ],
+      "kernel_us": 354.0805308148265,
+      "kernel_us_range": [
+        345.38517356850207,
+        356.56678956001997
+      ],
+      "amortized_us": 536.3801086787134,
+      "amortized_us_range": [
+        527.2076930850744,
+        607.5778976082802
+      ]
+    },
+    {
+      "method": "greedy",
+      "mode": "rebuild",
+      "seeds": [
+        301,
+        302,
+        303
+      ],
+      "initial_plan_us": 29.29382026195526,
+      "initial_plan_us_range": [
+        28.481706976890564,
+        30.38812428712845
+      ],
+      "planning_us": 2772.6369444280863,
+      "planning_us_range": [
+        2690.679975785315,
+        2910.3171546012163
+      ],
+      "kernel_us": 351.4633572194725,
+      "kernel_us_range": [
+        349.32788112200797,
+        361.726334085688
+      ],
+      "amortized_us": 3125.8804083336145,
+      "amortized_us_range": [
+        3041.838720673695,
+        3273.94274645485
+      ]
+    },
+    {
+      "method": "greedy",
+      "mode": "cached",
+      "seeds": [
+        301,
+        302,
+        303
+      ],
+      "initial_plan_us": 1922.578550875187,
+      "initial_plan_us_range": [
+        1896.2956964969635,
+        1949.2879509925842
+      ],
+      "planning_us": 93.91375351697206,
+      "planning_us_range": [
+        84.07986024394631,
+        97.41261601448059
+      ],
+      "kernel_us": 355.16307107172906,
+      "kernel_us_range": [
+        346.92047629505396,
+        357.88328386843204
+      ],
+      "amortized_us": 563.7936410494149,
+      "amortized_us_range": [
+        562.8515733405948,
+        569.2379840184003
+      ]
+    },
+    {
+      "method": "cube",
+      "mode": "rebuild",
+      "seeds": [
+        301,
+        302,
+        303
+      ],
+      "initial_plan_us": 26.728957891464233,
+      "initial_plan_us_range": [
+        26.008114218711853,
+        28.345733880996704
+      ],
+      "planning_us": 3542.664635460824,
+      "planning_us_range": [
+        3493.516123853624,
+        3592.0136724598706
+      ],
+      "kernel_us": 351.2866504024714,
+      "kernel_us_range": [
+        350.7685207296163,
+        361.14263348281384
+      ],
+      "amortized_us": 3895.6218457315117,
+      "amortized_us_range": [
+        3846.0562529508024,
+        3954.781813081354
+      ]
+    },
+    {
+      "method": "cube",
+      "mode": "cached",
+      "seeds": [
+        301,
+        302,
+        303
+      ],
+      "initial_plan_us": 2597.5648313760757,
+      "initial_plan_us_range": [
+        2591.1619886755943,
+        2608.625218272209
+      ],
+      "planning_us": 93.36427319794893,
+      "planning_us_range": [
+        88.76004721969366,
+        94.56876432523131
+      ],
+      "kernel_us": 354.52096490189433,
+      "kernel_us_range": [
+        344.65177450329065,
+        357.3970461729914
+      ],
+      "amortized_us": 605.6288140825927,
+      "amortized_us_range": [
+        601.0551238432527,
+        613.9134347904474
+      ]
+    }
+  ]
+}

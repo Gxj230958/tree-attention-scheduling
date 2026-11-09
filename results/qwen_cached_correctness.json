@@ -1,0 +1,125 @@
+{
+  "model": "tiny",
+  "results": [
+    {
+      "method": "request",
+      "planning": "cached",
+      "step": 0,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.0001148022711277008,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 16,
+      "logical_kv_tokens": 24
+    },
+    {
+      "method": "request",
+      "planning": "cached",
+      "step": 1,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.00010849419049918652,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 20,
+      "logical_kv_tokens": 28
+    },
+    {
+      "method": "request",
+      "planning": "cached",
+      "step": 2,
+      "max_abs_error": 0.00054931640625,
+      "mean_abs_error": 0.00012090429663658142,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 24,
+      "logical_kv_tokens": 32
+    },
+    {
+      "method": "fixed",
+      "planning": "cached",
+      "step": 0,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.00011526420712471008,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 16,
+      "logical_kv_tokens": 24
+    },
+    {
+      "method": "fixed",
+      "planning": "cached",
+      "step": 1,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.00010225060395896435,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 20,
+      "logical_kv_tokens": 28
+    },
+    {
+      "method": "fixed",
+      "planning": "cached",
+      "step": 2,
+      "max_abs_error": 0.00054931640625,
+      "mean_abs_error": 0.00012068822979927063,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 24,
+      "logical_kv_tokens": 32
+    },
+    {
+      "method": "greedy",
+      "planning": "cached",
+      "step": 0,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.0001148022711277008,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 16,
+      "logical_kv_tokens": 24
+    },
+    {
+      "method": "greedy",
+      "planning": "cached",
+      "step": 1,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.00010849419049918652,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 20,
+      "logical_kv_tokens": 28
+    },
+    {
+      "method": "greedy",
+      "planning": "cached",
+      "step": 2,
+      "max_abs_error": 0.00054931640625,
+      "mean_abs_error": 0.00012090429663658142,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 24,
+      "logical_kv_tokens": 32
+    },
+    {
+      "method": "cube",
+      "planning": "cached",
+      "step": 0,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.0001148022711277008,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 16,
+      "logical_kv_tokens": 24
+    },
+    {
+      "method": "cube",
+      "planning": "cached",
+      "step": 1,
+      "max_abs_error": 0.00048828125,
+      "mean_abs_error": 0.00010849419049918652,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 20,
+      "logical_kv_tokens": 28
+    },
+    {
+      "method": "cube",
+      "planning": "cached",
+      "step": 2,
+      "max_abs_error": 0.00054931640625,
+      "mean_abs_error": 0.00012090429663658142,
+      "argmax_match": 1.0,
+      "physical_kv_tokens": 24,
+      "logical_kv_tokens": 32
+    }
+  ]
+}

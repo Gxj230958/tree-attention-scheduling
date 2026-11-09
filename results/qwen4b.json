@@ -1,0 +1,1772 @@
+{
+  "inputs": [
+    "results/qwen4b_rebuild_run1.json",
+    "results/qwen4b_rebuild_run2.json",
+    "results/qwen4b_rebuild_run3.json",
+    "results/qwen4b_cached_run1.json",
+    "results/qwen4b_cached_run2.json",
+    "results/qwen4b_cached_run3.json"
+  ],
+  "results": [
+    {
+      "workload": "document_qa",
+      "method": "request",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 673.0328444391489,
+      "prefill_ms_range": [
+        670.0749825686216,
+        677.0517528057098
+      ],
+      "decode_total_ms": 540.3840243816376,
+      "decode_total_ms_range": [
+        535.990814678371,
+        545.9962105378509
+      ],
+      "generation_total_ms": 1213.4168688207865,
+      "generation_total_ms_range": [
+        1206.0657972469926,
+        1223.0479633435607
+      ],
+      "decode_tokens_per_second": 222.06429980478458,
+      "decode_tokens_per_second_range": [
+        219.781745154953,
+        223.8844336763639
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "document_qa",
+      "method": "fixed",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 673.1842998415232,
+      "prefill_ms_range": [
+        670.4784175381064,
+        676.4484029263258
+      ],
+      "decode_total_ms": 540.0083158165216,
+      "decode_total_ms_range": [
+        524.2101307958364,
+        553.5896588116884
+      ],
+      "generation_total_ms": 1216.4567187428474,
+      "generation_total_ms_range": [
+        1194.688548333943,
+        1226.7739586532116
+      ],
+      "decode_tokens_per_second": 222.21880012820458,
+      "decode_tokens_per_second_range": [
+        216.76705496556204,
+        228.91583536895868
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "document_qa",
+      "method": "greedy",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 674.7780675068498,
+      "prefill_ms_range": [
+        670.435038395226,
+        676.3617917895317
+      ],
+      "decode_total_ms": 527.8573101386428,
+      "decode_total_ms_range": [
+        520.8531999960542,
+        536.7513708770275
+      ],
+      "generation_total_ms": 1202.6353776454926,
+      "generation_total_ms_range": [
+        1191.2882383912802,
+        1213.1131626665592
+      ],
+      "decode_tokens_per_second": 227.3341634095808,
+      "decode_tokens_per_second_range": [
+        223.56719798204784,
+        230.39121195935647
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "document_qa",
+      "method": "cube",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 672.6659275591373,
+      "prefill_ms_range": [
+        670.7186046987772,
+        676.6258236020803
+      ],
+      "decode_total_ms": 527.1572154015303,
+      "decode_total_ms_range": [
+        524.0595210343599,
+        531.0941971838474
+      ],
+      "generation_total_ms": 1203.7601247429848,
+      "generation_total_ms_range": [
+        1194.7781257331371,
+        1203.7830390036106
+      ],
+      "decode_tokens_per_second": 227.63607609657248,
+      "decode_tokens_per_second_range": [
+        225.94861822310577,
+        228.98162362006244
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "request",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 675.087652169168,
+      "prefill_ms_range": [
+        673.7556522712111,
+        680.3154656663537
+      ],
+      "decode_total_ms": 538.3432023227215,
+      "decode_total_ms_range": [
+        536.7171354591846,
+        552.9299033805728
+      ],
+      "generation_total_ms": 1213.4308544918895,
+      "generation_total_ms_range": [
+        1210.4727877303958,
+        1233.2453690469265
+      ],
+      "decode_tokens_per_second": 222.90613029430136,
+      "decode_tokens_per_second_range": [
+        217.02570120792674,
+        223.5814585970594
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "fixed",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 677.0265912637115,
+      "prefill_ms_range": [
+        673.6156456172466,
+        680.097165517509
+      ],
+      "decode_total_ms": 525.7452921941876,
+      "decode_total_ms_range": [
+        525.3430176526308,
+        543.590153567493
+      ],
+      "generation_total_ms": 1205.8424577116966,
+      "generation_total_ms_range": [
+        1202.3696089163423,
+        1217.2057991847396
+      ],
+      "decode_tokens_per_second": 228.24740759766456,
+      "decode_tokens_per_second_range": [
+        220.75455048708974,
+        228.4221850633729
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "greedy",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 677.3458141833544,
+      "prefill_ms_range": [
+        675.3005543723702,
+        679.1556710377336
+      ],
+      "decode_total_ms": 540.3703125193715,
+      "decode_total_ms_range": [
+        532.8307915478945,
+        543.3446196839213
+      ],
+      "generation_total_ms": 1215.6708668917418,
+      "generation_total_ms_range": [
+        1210.1766057312489,
+        1222.500290721655
+      ],
+      "decode_tokens_per_second": 222.06993467224973,
+      "decode_tokens_per_second_range": [
+        220.85430802610568,
+        225.21220977375435
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "cube",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 675.2046504989266,
+      "prefill_ms_range": [
+        674.3531748652458,
+        679.7844711691141
+      ],
+      "decode_total_ms": 545.4101609066129,
+      "decode_total_ms_range": [
+        544.9730139225721,
+        550.1339491456747
+      ],
+      "generation_total_ms": 1220.1776644214988,
+      "generation_total_ms_range": [
+        1219.7633357718587,
+        1229.9184203147888
+      ],
+      "decode_tokens_per_second": 220.01790322448144,
+      "decode_tokens_per_second_range": [
+        218.1286942686465,
+        220.19438932631107
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "request",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 354.2272914201021,
+      "prefill_ms_range": [
+        352.71733161062,
+        356.73243273049593
+      ],
+      "decode_total_ms": 490.19399378448725,
+      "decode_total_ms_range": [
+        488.58839366585016,
+        495.1752806082368
+      ],
+      "generation_total_ms": 846.9264265149832,
+      "generation_total_ms_range": [
+        842.8156850859523,
+        847.8926122188568
+      ],
+      "decode_tokens_per_second": 244.80104106040466,
+      "decode_tokens_per_second_range": [
+        242.33842984367243,
+        245.605506712198
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "fixed",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 354.8360327258706,
+      "prefill_ms_range": [
+        354.24402821809053,
+        356.7476477473974
+      ],
+      "decode_total_ms": 508.3522703498602,
+      "decode_total_ms_range": [
+        497.30093497782946,
+        521.1064899340272
+      ],
+      "generation_total_ms": 863.1883030757308,
+      "generation_total_ms_range": [
+        851.54496319592,
+        877.8541376814246
+      ],
+      "decode_tokens_per_second": 236.05677991250658,
+      "decode_tokens_per_second_range": [
+        230.27922760123784,
+        241.30258272156638
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 0.8984375,
+      "token_agreement_with_request_range": [
+        0.8984375,
+        0.8984375
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "greedy",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 354.1968269273639,
+      "prefill_ms_range": [
+        352.398163639009,
+        357.7541531994939
+      ],
+      "decode_total_ms": 508.8682472705841,
+      "decode_total_ms_range": [
+        501.50145310908556,
+        509.60822124034166
+      ],
+      "generation_total_ms": 862.0063848793507,
+      "generation_total_ms_range": [
+        855.6982800364494,
+        866.622400470078
+      ],
+      "decode_tokens_per_second": 235.81742551955998,
+      "decode_tokens_per_second_range": [
+        235.47500805212783,
+        239.28146021522664
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 0.8984375,
+      "token_agreement_with_request_range": [
+        0.8984375,
+        0.8984375
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "cube",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 353.8842396810651,
+      "prefill_ms_range": [
+        353.5031145438552,
+        357.524330727756
+      ],
+      "decode_total_ms": 513.1961489096284,
+      "decode_total_ms_range": [
+        506.45902566611767,
+        515.8241046592593
+      ],
+      "generation_total_ms": 869.3272192031145,
+      "generation_total_ms_range": [
+        860.3432653471828,
+        870.7204796373844
+      ],
+      "decode_tokens_per_second": 233.82872271150163,
+      "decode_tokens_per_second_range": [
+        232.63744155436288,
+        236.93920715929707
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 0.8984375,
+      "token_agreement_with_request_range": [
+        0.8984375,
+        0.8984375
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "request",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 343.6437249183655,
+      "prefill_ms_range": [
+        341.643039137125,
+        344.41722091287374
+      ],
+      "decode_total_ms": 494.9652263894677,
+      "decode_total_ms_range": [
+        489.6289948374033,
+        495.3127084299922
+      ],
+      "generation_total_ms": 838.9564333483577,
+      "generation_total_ms_range": [
+        831.2720339745283,
+        839.3824473023415
+      ],
+      "decode_tokens_per_second": 242.44127385542222,
+      "decode_tokens_per_second_range": [
+        242.271191426458,
+        245.0835250062137
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "fixed",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 343.93032640218735,
+      "prefill_ms_range": [
+        340.60637932270765,
+        343.93104910850525
+      ],
+      "decode_total_ms": 490.825567394495,
+      "decode_total_ms_range": [
+        490.2773555368185,
+        498.94264061003923
+      ],
+      "generation_total_ms": 834.7558937966824,
+      "generation_total_ms_range": [
+        830.8837348595262,
+        842.8736897185445
+      ],
+      "decode_tokens_per_second": 244.4860414199888,
+      "decode_tokens_per_second_range": [
+        240.50860807021888,
+        244.75941759253516
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "greedy",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 343.5900742188096,
+      "prefill_ms_range": [
+        341.6431378573179,
+        343.92188023775816
+      ],
+      "decode_total_ms": 506.35849591344595,
+      "decode_total_ms_range": [
+        493.17288491874933,
+        518.6048215255141
+      ],
+      "generation_total_ms": 850.2803761512041,
+      "generation_total_ms_range": [
+        836.7629591375589,
+        860.247959382832
+      ],
+      "decode_tokens_per_second": 236.98624782334474,
+      "decode_tokens_per_second_range": [
+        231.39005851702495,
+        243.32237977716497
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "cube",
+      "planning": "rebuild",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 343.52654218673706,
+      "prefill_ms_range": [
+        340.31911566853523,
+        343.65714620798826
+      ],
+      "decode_total_ms": 494.77017018944025,
+      "decode_total_ms_range": [
+        493.46201959997416,
+        502.2093951702118
+      ],
+      "generation_total_ms": 838.4273163974285,
+      "generation_total_ms_range": [
+        833.7811352685094,
+        845.7359373569489
+      ],
+      "decode_tokens_per_second": 242.53685292719598,
+      "decode_tokens_per_second_range": [
+        238.94415587213155,
+        243.17980965845803
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    },
+    {
+      "workload": "document_qa",
+      "method": "request",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 667.4187853932381,
+      "prefill_ms_range": [
+        665.0209650397301,
+        679.7179346904159
+      ],
+      "decode_total_ms": 526.0428730398417,
+      "decode_total_ms_range": [
+        524.5439102873206,
+        536.7358904331923
+      ],
+      "generation_total_ms": 1191.9626956805587,
+      "generation_total_ms_range": [
+        1191.0638380795717,
+        1216.453825123608
+      ],
+      "decode_tokens_per_second": 228.11828873672695,
+      "decode_tokens_per_second_range": [
+        223.57364606855268,
+        228.77017089812293
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "document_qa",
+      "method": "fixed",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 667.8233155980706,
+      "prefill_ms_range": [
+        665.2203211560845,
+        778.5973325371742
+      ],
+      "decode_total_ms": 520.6454982981086,
+      "decode_total_ms_range": [
+        516.3815766572952,
+        524.0822406485677
+      ],
+      "generation_total_ms": 1188.4688138961792,
+      "generation_total_ms_range": [
+        1181.6018978133798,
+        1302.679573185742
+      ],
+      "decode_tokens_per_second": 230.4831221863192,
+      "decode_tokens_per_second_range": [
+        228.97169698308485,
+        232.38629227789025
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "document_qa",
+      "method": "greedy",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 666.9960981234908,
+      "prefill_ms_range": [
+        664.7269586101174,
+        679.1819110512733
+      ],
+      "decode_total_ms": 513.4248146787286,
+      "decode_total_ms_range": [
+        508.70857015252113,
+        514.7192347794771
+      ],
+      "generation_total_ms": 1179.4461933895946,
+      "generation_total_ms_range": [
+        1175.704668276012,
+        1192.606725730002
+      ],
+      "decode_tokens_per_second": 233.72458161199128,
+      "decode_tokens_per_second_range": [
+        233.13680914103006,
+        235.8914455953073
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "document_qa",
+      "method": "cube",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 669.3767299875617,
+      "prefill_ms_range": [
+        664.5379504188895,
+        678.6621538922191
+      ],
+      "decode_total_ms": 508.6926305666566,
+      "decode_total_ms_range": [
+        504.4103739783168,
+        517.1360978856683
+      ],
+      "generation_total_ms": 1173.7871039658785,
+      "generation_total_ms_range": [
+        1173.230580985546,
+        1195.7982517778873
+      ],
+      "decode_tokens_per_second": 235.89883711569868,
+      "decode_tokens_per_second_range": [
+        232.04723184211045,
+        237.90153056042908
+      ],
+      "peak_allocated_bytes": 8997312512,
+      "peak_allocated_bytes_range": [
+        8997312512,
+        8997312512
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 971,
+      "physical_kv_tokens_range": [
+        971,
+        971
+      ],
+      "logical_kv_tokens": 6366,
+      "logical_kv_tokens_range": [
+        6366,
+        6366
+      ],
+      "allocated_kv_tokens": 979,
+      "allocated_kv_tokens_range": [
+        979,
+        979
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "request",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 669.7482662275434,
+      "prefill_ms_range": [
+        668.8398635014892,
+        681.6288996487856
+      ],
+      "decode_total_ms": 525.4905791953206,
+      "decode_total_ms_range": [
+        519.881896674633,
+        532.9048242419958
+      ],
+      "generation_total_ms": 1194.3304426968098,
+      "generation_total_ms_range": [
+        1189.6301629021764,
+        1214.5337238907814
+      ],
+      "decode_tokens_per_second": 228.35804246720275,
+      "decode_tokens_per_second_range": [
+        225.18092263602247,
+        230.82165539436306
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "fixed",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 670.2142534777522,
+      "prefill_ms_range": [
+        668.9966833218932,
+        682.2244999930263
+      ],
+      "decode_total_ms": 522.9108361527324,
+      "decode_total_ms_range": [
+        518.5969304293394,
+        523.6722324043512
+      ],
+      "generation_total_ms": 1191.9075194746256,
+      "generation_total_ms_range": [
+        1188.8111839070916,
+        1205.8967323973775
+      ],
+      "decode_tokens_per_second": 229.4846304637494,
+      "decode_tokens_per_second_range": [
+        229.15096996653915,
+        231.39357940405398
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "greedy",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 670.5157617107034,
+      "prefill_ms_range": [
+        668.2930393144488,
+        681.8010155111551
+      ],
+      "decode_total_ms": 525.1695141196251,
+      "decode_total_ms_range": [
+        524.008727632463,
+        527.3225381970406
+      ],
+      "generation_total_ms": 1194.5244893431664,
+      "generation_total_ms_range": [
+        1193.462553434074,
+        1209.1235537081957
+      ],
+      "decode_tokens_per_second": 228.4976503275587,
+      "decode_tokens_per_second_range": [
+        227.5647090873262,
+        229.00381934891624
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_turn",
+      "method": "cube",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 669.8283245787024,
+      "prefill_ms_range": [
+        667.7293116226792,
+        681.6130504012108
+      ],
+      "decode_total_ms": 528.847549110651,
+      "decode_total_ms_range": [
+        523.7310407683253,
+        529.1836615651846
+      ],
+      "generation_total_ms": 1199.011986143887,
+      "generation_total_ms_range": [
+        1191.4603523910046,
+        1210.4605995118618
+      ],
+      "decode_tokens_per_second": 226.90849225225838,
+      "decode_tokens_per_second_range": [
+        226.76437070084873,
+        229.12523921430602
+      ],
+      "peak_allocated_bytes": 9033345536,
+      "peak_allocated_bytes_range": [
+        9033345536,
+        9033345536
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1005,
+      "physical_kv_tokens_range": [
+        1005,
+        1005
+      ],
+      "logical_kv_tokens": 6516,
+      "logical_kv_tokens_range": [
+        6516,
+        6516
+      ],
+      "allocated_kv_tokens": 1013,
+      "allocated_kv_tokens_range": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "request",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 349.79197196662426,
+      "prefill_ms_range": [
+        347.7041879668832,
+        358.46463963389397
+      ],
+      "decode_total_ms": 474.64143112301826,
+      "decode_total_ms_range": [
+        474.17522221803665,
+        483.55119302868843
+      ],
+      "generation_total_ms": 823.9671941846609,
+      "generation_total_ms_range": [
+        822.3456190899014,
+        842.0158326625824
+      ],
+      "decode_tokens_per_second": 252.82243001011477,
+      "decode_tokens_per_second_range": [
+        248.16400358437448,
+        253.0710049307917
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "fixed",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 349.987437017262,
+      "prefill_ms_range": [
+        347.3036242648959,
+        358.9873928576708
+      ],
+      "decode_total_ms": 495.1873254030943,
+      "decode_total_ms_range": [
+        490.56695494800806,
+        507.89390597492456
+      ],
+      "generation_total_ms": 842.4909496679902,
+      "generation_total_ms_range": [
+        840.55439196527,
+        866.8812988325953
+      ],
+      "decode_tokens_per_second": 242.3325352730245,
+      "decode_tokens_per_second_range": [
+        236.26981656662085,
+        244.61492725843715
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 0.8984375,
+      "token_agreement_with_request_range": [
+        0.8984375,
+        0.8984375
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "greedy",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 349.65196065604687,
+      "prefill_ms_range": [
+        347.37429302185774,
+        358.43737330287695
+      ],
+      "decode_total_ms": 500.61853881925344,
+      "decode_total_ms_range": [
+        489.186342805624,
+        513.9747019857168
+      ],
+      "generation_total_ms": 847.9928318411112,
+      "generation_total_ms_range": [
+        838.8383034616709,
+        872.4120752885938
+      ],
+      "decode_tokens_per_second": 239.7034681996177,
+      "decode_tokens_per_second_range": [
+        233.47452615155126,
+        245.30529473035895
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 0.8984375,
+      "token_agreement_with_request_range": [
+        0.8984375,
+        0.8984375
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "multi_branch",
+      "method": "cube",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 350.97084380686283,
+      "prefill_ms_range": [
+        347.8671759366989,
+        360.3120185434818
+      ],
+      "decode_total_ms": 496.2474089115858,
+      "decode_total_ms_range": [
+        490.98746851086617,
+        520.1519522815943
+      ],
+      "generation_total_ms": 844.1145848482847,
+      "generation_total_ms_range": [
+        841.958312317729,
+        880.4639708250761
+      ],
+      "decode_tokens_per_second": 241.81486461197798,
+      "decode_tokens_per_second_range": [
+        230.70181602439837,
+        244.4054231444081
+      ],
+      "peak_allocated_bytes": 8357524992,
+      "peak_allocated_bytes_range": [
+        8357524992,
+        8357524992
+      ],
+      "token_agreement_with_request": 0.8984375,
+      "token_agreement_with_request_range": [
+        0.8984375,
+        0.8984375
+      ],
+      "physical_kv_tokens": 353,
+      "physical_kv_tokens_range": [
+        353,
+        353
+      ],
+      "logical_kv_tokens": 1875,
+      "logical_kv_tokens_range": [
+        1875,
+        1875
+      ],
+      "allocated_kv_tokens": 361,
+      "allocated_kv_tokens_range": [
+        361,
+        361
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "request",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 338.7760426849127,
+      "prefill_ms_range": [
+        336.5338109433651,
+        345.7033559679985
+      ],
+      "decode_total_ms": 481.4667431637645,
+      "decode_total_ms_range": [
+        480.3327275440097,
+        496.1571525782347
+      ],
+      "generation_total_ms": 819.1087702289224,
+      "generation_total_ms_range": [
+        818.0005541071296,
+        841.8605085462332
+      ],
+      "decode_tokens_per_second": 249.23839850592464,
+      "decode_tokens_per_second_range": [
+        241.85885334199278,
+        249.8268244464046
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "fixed",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 338.31602055579424,
+      "prefill_ms_range": [
+        336.6557490080595,
+        348.8410981371999
+      ],
+      "decode_total_ms": 480.89364636689425,
+      "decode_total_ms_range": [
+        479.9032909795642,
+        493.32953803241253
+      ],
+      "generation_total_ms": 819.2096669226885,
+      "generation_total_ms_range": [
+        816.5590399876237,
+        842.1706361696124
+      ],
+      "decode_tokens_per_second": 249.53542411422688,
+      "decode_tokens_per_second_range": [
+        243.2451145710959,
+        250.0503794317801
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "greedy",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 338.4702019393444,
+      "prefill_ms_range": [
+        336.74178645014763,
+        345.7162659615278
+      ],
+      "decode_total_ms": 481.4130859449506,
+      "decode_total_ms_range": [
+        480.49882613122463,
+        492.7592985332012
+      ],
+      "generation_total_ms": 819.883287884295,
+      "generation_total_ms_range": [
+        817.2406125813723,
+        838.475564494729
+      ],
+      "decode_tokens_per_second": 249.26617805674263,
+      "decode_tokens_per_second_range": [
+        243.5266069198583,
+        249.7404644381543
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    },
+    {
+      "workload": "no_share",
+      "method": "cube",
+      "planning": "cached",
+      "seeds": [
+        401,
+        402,
+        403
+      ],
+      "prefill_ms": 338.2583884522319,
+      "prefill_ms_range": [
+        337.7846833318472,
+        345.76848335564137
+      ],
+      "decode_total_ms": 482.9246271401644,
+      "decode_total_ms_range": [
+        479.56039663404226,
+        500.4087192937732
+      ],
+      "generation_total_ms": 820.7093104720116,
+      "generation_total_ms_range": [
+        817.8187850862741,
+        846.1772026494145
+      ],
+      "decode_tokens_per_second": 248.48598157155303,
+      "decode_tokens_per_second_range": [
+        239.80397497740645,
+        250.22916996954046
+      ],
+      "peak_allocated_bytes": 8572143616,
+      "peak_allocated_bytes_range": [
+        8572143616,
+        8572143616
+      ],
+      "token_agreement_with_request": 1.0,
+      "token_agreement_with_request_range": [
+        1.0,
+        1.0
+      ],
+      "physical_kv_tokens": 1393,
+      "physical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "logical_kv_tokens": 1393,
+      "logical_kv_tokens_range": [
+        1393,
+        1393
+      ],
+      "allocated_kv_tokens": 1401,
+      "allocated_kv_tokens_range": [
+        1401,
+        1401
+      ]
+    }
+  ]
+}

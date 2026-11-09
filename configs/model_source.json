@@ -1,0 +1,65 @@
+{
+  "repository": "https://modelscope.cn/models/Qwen/Qwen3-4B",
+  "files": [
+    {
+      "Path": "LICENSE",
+      "Revision": "2c54d5a09e7e92d4f5126b92a5a457448c9593e6",
+      "Size": 11343
+    },
+    {
+      "Path": "config.json",
+      "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+      "Size": 726
+    },
+    {
+      "Path": "configuration.json",
+      "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+      "Size": 73
+    },
+    {
+      "Path": "generation_config.json",
+      "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+      "Size": 239
+    },
+    {
+      "Path": "merges.txt",
+      "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+      "Size": 1671853
+    },
+    {
+      "Path": "model.safetensors.index.json",
+      "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+      "Size": 32819
+    },
+    {
+      "Path": "tokenizer.json",
+      "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+      "Size": 11422654
+    },
+    {
+      "Path": "tokenizer_config.json",
+      "Revision": "e3b70dd031653712ca809c65c55c4cce32370304",
+      "Size": 9732
+    },
+    {
+      "Path": "vocab.json",
+      "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+      "Size": 2776833
+    },
+    {
+      "Path": "model-00001-of-00003.safetensors",
+      "Revision": "8cd0101f70cac4f1efcebc979faf483558e39297",
+      "Size": 3957900840
+    },
+    {
+      "Path": "model-00002-of-00003.safetensors",
+      "Revision": "8cd0101f70cac4f1efcebc979faf483558e39297",
+      "Size": 3987450520
+    },
+    {
+      "Path": "model-00003-of-00003.safetensors",
+      "Revision": "8cd0101f70cac4f1efcebc979faf483558e39297",
+      "Size": 99630640
+    }
+  ]
+}
